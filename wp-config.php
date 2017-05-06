@@ -29,7 +29,7 @@ define('DB_USER', 'madrinhas');
 define('DB_PASSWORD', '39jqTMenwcUQGJ3e');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'localhost:8888');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -63,7 +63,7 @@ define('NONCE_SALT',       '6r!<`%0oyHlRl#8 6,VLMq8X%wH2=i)KF/aJT7Ehp&Q5Op)r]S8o
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'wp1q_';
 
 /**
  * For developers: WordPress debugging mode.
