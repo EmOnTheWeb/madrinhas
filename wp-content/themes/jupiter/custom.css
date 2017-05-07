@@ -71,15 +71,12 @@
 	font-size:20px !important;
 }
 .homepage__location-text a {
-	border-bottom:2px solid red; 
+	border-bottom:2px solid #E4572E; 
 	text-decoration:none;
 	color:white!important;
 }
 
 .homepage__location-text a { 
-	-webkit-transition: all .2s ease-in-out; 
-	transition: all .2s ease-in-out; 
-
 	-webkit-transition: all 0.3s ease-out; 
     -moz-transition: all 0.3s ease-out; 
     -o-transition: all 0.3s ease-out; 
@@ -87,6 +84,17 @@
 }
 .homepage__location-text a:hover { 
 	font-size: 22px; 
+	border-bottom:2px solid white;
+}
+
+.globe-icon a svg{
+	-webkit-transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out; 
+    transition: all 0.3s ease-out;
+}
+.globe-icon a:hover svg {
+	 transform: scale(1.1);
 }
 
 @media (max-width: 1140px) {
