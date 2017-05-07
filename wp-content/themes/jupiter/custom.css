@@ -121,6 +121,8 @@
 	border-left:none!important;
 	border-right:none!important;
 	border-color:lightgray!important;
+	padding-top:40px!important;
+	margin-bottom:25px!important;
 }
 
 .homepage__success-block h2 {
