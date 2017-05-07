@@ -164,6 +164,18 @@ body {
 	margin-bottom:15px; 
 }
 
+.about-us__gallery {
+	margin-top:40px; 
+}
+.about-us__gallery h3 {
+	font-size:20px!important; 
+	margin-bottom:26px;
+}
+
+.about-us__gallery .mk-gallery .item-holder img {
+	height:153px; 
+}
+
 @media (max-width: 1140px) {
 	.master-holder .homepage__banner {
 		padding-left:0px;
