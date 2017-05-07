@@ -1,3 +1,7 @@
+body {
+	font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .header-logo img {
 	padding: 3px 0px;
     box-sizing: border-box;
@@ -57,7 +61,7 @@
 }
 
 .homepage__location {
-	padding:80px 125px;
+	padding:80px 60px;
 }
 
 .homepage__location-text {
@@ -132,6 +136,32 @@
 }
 .homepage__success-block .p1 {
 	margin-bottom:30px!important;
+}
+
+.page__title {
+	margin-top:-32px!important;
+}
+.page__title h2 {
+	font-size: 20px!important;
+    text-transform: uppercase!important;
+}
+
+.page__objective {
+	margin-top:20px;
+	margin-bottom:18px!important;
+}
+.page__objective p {
+	font-size:20px; 
+}
+
+.page__process-block .mk-text-block{
+	margin-top:-20px;
+}
+.page__process-block .mk-text-block ol {
+	font-size:16px;
+}
+.page__process-block .mk-text-block li {
+	margin-bottom:15px; 
 }
 
 @media (max-width: 1140px) {
