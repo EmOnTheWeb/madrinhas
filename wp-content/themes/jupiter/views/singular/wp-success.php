@@ -1,11 +1,4 @@
-<?php
-/**
-* Content/view part for page.php
-*
-* @author 	Artbees
-* @package 	jupiter/views
-* @version     5.0.0
-*/
+<?php 
 
 global $mk_options;
 
