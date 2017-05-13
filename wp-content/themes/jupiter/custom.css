@@ -335,8 +335,10 @@ body {
 
 .where-we-go-text {
 	padding: 60px 80px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 500;
+    line-height:1.2;
     color:white;
 }
+
 
