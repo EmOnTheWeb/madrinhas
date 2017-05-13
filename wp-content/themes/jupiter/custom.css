@@ -341,4 +341,8 @@ body {
     color:white;
 }
 
+.team-thumbnail img {
+	width: 500px; 
+}
+
 
