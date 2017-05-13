@@ -13,8 +13,18 @@ if (have_posts())
 
 ?>
 
+<div class = 'graduation'>
+<!-- 	<i class="fa fa-graduation-cap" aria-hidden="true"></i> -->
 
-<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+	<div class = 'graduation__text'>
+	<?php $uploads = wp_upload_dir(); ?>
+	
+		<span class = 'text__number' ><img src='<?php echo $uploads['baseurl']; ?>/2017/fancy/circles.png'><span class='count'>9</span> </span>of our mentees have graduated
+
+	</div>
+	
+
+</div>
 
 	    Where Do We Go From Here?
 

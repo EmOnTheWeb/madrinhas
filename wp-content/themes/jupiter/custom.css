@@ -186,3 +186,39 @@ body {
 		padding-right:0px;
 	}
 }
+
+.fa-graduation-cap {
+    font-size: 150px!important;
+    color: #ce776c;
+}
+.graduation {
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    margin-bottom:100px; 
+}
+.graduation__text {
+	font-size: 40px;
+    font-weight: 600;
+    width: auto; 
+    margin-left:60px;
+}
+.text__number {
+	font-size:58px; 
+	position:relative;
+	width:175px;
+	display:inline-block;
+	text-align:center;
+	font-weight:bold;
+}
+
+.text__number img {
+	position: absolute;
+    width: 175px;
+    left: 0px;
+    top:-59px; 
+}
