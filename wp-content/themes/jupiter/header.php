@@ -2,6 +2,7 @@
 <html <?php echo language_attributes();?> >
 <head>
     <?php wp_head(); ?>
+    <script src="https://use.fontawesome.com/85dc49f962.js"></script>
 </head>
 
 <body <?php body_class(mk_get_body_class(global_get_post_id())); ?> <?php echo get_schema_markup('body'); ?> data-adminbar="<?php echo is_admin_bar_showing() ?>">
