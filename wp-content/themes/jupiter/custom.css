@@ -345,4 +345,9 @@ body {
 	width: 500px; 
 }
 
+.hoverinfo {
+	font-size:15px !important;
+	font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 
