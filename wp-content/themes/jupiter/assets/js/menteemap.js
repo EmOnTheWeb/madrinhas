@@ -7,50 +7,85 @@ var bubble_map = new Datamap({
   },
   fills: {
     defaultFill: '#ABDDA4',
-    USA: 'blue',
-    RUS: 'red'
+    BAR: 'red',
+    KEN: 'red',
+    NPL: 'red',
+    NGA: 'red',
+    PSE: 'blue',
+    RWA: 'blue',
+    ZAF: 'blue',
+    TUN: 'red',
+    ZMB: 'red' 
+  },
+  data: {
+        'BAR': {fillKey: 'BRB'},
+        'KEN': {fillKey: 'KEN'},
+        'NPL': {fillKey: 'NPL'},
+        'NGA': {fillKey: 'NGA'},
+        'PSE': {fillKey: 'PSE'},
+        'RWA': {fillKey: 'RWA'},
+        'ZAF': {fillKey: 'ZAF'},
+        'TUN': {fillKey: 'TUN'},
+        'ZMB': {fillKey: 'ZMB'}
   }
 });
 bubble_map.bubbles([
   {
-    name: 'Not a bomb, but centered on Brazil',
-    radius: 23,
-    centered: 'BRA',
-    country: 'USA',
-    yeild: 0,
-    fillKey: 'USA',
-    date: '1954-03-01'
-  },
-  {
-    name: 'Not a bomb',
-    radius: 15,
-    yeild: 0,
-    country: 'USA',
-    centered: 'USA',
-    date: '1986-06-05',
-    significance: 'Centered on US',
-    fillKey: 'USA'
-  },
-  {
-    name: 'Castle Bravo',
+    name: 'Kenya',
     radius: 25,
-    yeild: 15000,
-    country: 'USA',
-    significance: 'First dry fusion fuel "staged" thermonuclear weapon; a serious nuclear fallout accident occurred',
-    fillKey: 'USA',
-    date: '1954-03-01',
-    latitude: 11.415,
-    longitude: 165.1619
-  },{
-    name: 'Tsar Bomba',
-    radius: 70,
-    yeild: 50000,
-    country: 'USSR',
-    fillKey: 'RUS',
-    significance: 'Largest thermonuclear weapon ever tested—scaled down from its initial 100 Mt design by 50%',
-    date: '1961-10-31',
-    latitude: 73.482,
-    longitude: 54.5854
+    centered: 'KEN',
+    fillKey: 'KEN',
+  },
+  {
+    name: 'Nepal',
+    radius: 25,
+    country: 'NPL',
+    centered: 'NPL',
+    fillKey: 'NPL'
+  },
+  {
+    name: 'Nigeria',
+    radius: 20,
+    country: 'NGA',
+    centered: 'NGA',
+    fillKey: 'NGA'
+  },
+  {
+    name: 'Palestine',
+    radius: 35,
+    country: 'PSE',
+    centered: 'PSE',
+    fillKey: 'PSE'
+  },
+  {
+    name: 'Rwanda',
+    radius: 30,
+    country: 'RWA',
+    centered: 'RWA',
+    fillKey: 'RWA'
+  },
+  {
+    name: 'South Africa',
+    radius: 40,
+    country: 'ZAF',
+    centered: 'ZAF',
+    fillKey: 'ZAF' 
+  },
+  {
+    name: 'Tunisia',
+    radius: 25,
+    country: 'TUN',
+    centered: 'TUN',
+    fillKey: 'TUN' 
+
+
+  },
+    {
+    name: 'Zambia',
+    radius: 20,
+    country: 'ZMB',
+    centered: 'ZMB',
+    fillKey: 'ZMB' 
   }
 ], {
   
