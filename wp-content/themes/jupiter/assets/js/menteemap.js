@@ -110,7 +110,28 @@ window.addEventListener('resize', function() {
                 scrollTop: $(selector).offset().top - ($('.mk-header-holder').outerHeight() + 150)
             }, 400);
 
+        });
+
+         $('.mobile-flags img').click(function() {
+            
+            allMenteeDivs.hide(); 
+            allMenteeHeadings.hide(); 
+            var name = $(this).prev('h4').text(); 
+            name = name.toLowerCase().replace(/ /g,''); 
+            var selector = '.mentees__' + name; 
+            $(selector).show(); 
+            //show title 
+            $(selector).prev('h3').show();  
+
+            //scroll down to view mentees
+            $('html, body').animate({
+                scrollTop: $(selector).offset().top - ($('.mk-header-holder').outerHeight() + 150)
+            }, 400);
+
         }); 
+
+
+
 
         $('.page-template-page-mentee-map .mk-go-top').click(function() {
             
