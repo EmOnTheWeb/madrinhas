@@ -451,12 +451,16 @@ body {
 
 .bubble {
   	position: relative;
-  	padding: 20px;
+  	padding: 15px!important;
   	background: #FFFFFF;
   	border-radius: 4px;
   	border: #7F7F7F solid 1px;
-  	font-size: 1em;
-  	line-height: 1.25em;
+  	font-size: 15px;
+  	font-weight:500;
+  	line-height: 1.25em!important;
+}
+.bubble p {
+	line-height:1.25em;
 }
 
 .bubble.left:after {

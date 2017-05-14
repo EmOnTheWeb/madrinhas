@@ -125,13 +125,13 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
                 var bubbles = $('.bubble-wrap').addClass('fade-in');
                 $(this).remove(); 
 
-                if($('.bubble-wrap').css('top') == '-100px') {
-                    $('.vc_custom_1494791495924.rest-of-trustees').attr('style','margin-top:220px !important'); 
+                if($('.bubble-wrap').css('top') == '-150px' || $('.bubble-wrap').css('top') == '-100px' ) {
+                    var displace = $('.bubble-wrap').height() - 45; 
                 }
-                if($('.bubble-wrap').css('top') == '-150px') {
-                    var displace = $('.bubble-wrap').height(); 
-                    $('.vc_custom_1494791495924.rest-of-trustees').attr('style','margin-top:' + displace + 'px !important');
+                else {
+                    var displace = ($('.bubble-wrap').height()) - 370; 
                 }
+                $('.vc_custom_1494791495924.rest-of-trustees').attr('style','margin-top:' + displace + 'px !important');
             });
         })(jQuery);
     </script>
