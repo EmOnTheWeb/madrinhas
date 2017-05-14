@@ -7,85 +7,79 @@ var bubble_map = new Datamap({
   },
   fills: {
     defaultFill: '#ABDDA4',
-    BAR: 'red',
-    KEN: 'red',
-    NPL: 'red',
-    NGA: 'red',
-    PSE: 'blue',
-    RWA: 'blue',
-    ZAF: 'blue',
-    TUN: 'red',
-    ZMB: 'red' 
-  },
-  data: {
-        'BAR': {fillKey: 'BRB'},
-        'KEN': {fillKey: 'KEN'},
-        'NPL': {fillKey: 'NPL'},
-        'NGA': {fillKey: 'NGA'},
-        'PSE': {fillKey: 'PSE'},
-        'RWA': {fillKey: 'RWA'},
-        'ZAF': {fillKey: 'ZAF'},
-        'TUN': {fillKey: 'TUN'},
-        'ZMB': {fillKey: 'ZMB'}
+    RED: 'red',
+    BLUE: 'blue'
   }
 });
 bubble_map.bubbles([
+    {
+    name: 'Barbados',
+    radius: 25,
+    fillKey: 'RED',
+    latitude: 13.10,
+    longitude: -59.32
+  },
   {
     name: 'Kenya',
-    radius: 25,
-    centered: 'KEN',
-    fillKey: 'KEN',
+    radius: 30,
+    fillKey: 'RED',
+    latitude: 1.17,
+    longitude: 44.49
   },
   {
     name: 'Nepal',
-    radius: 25,
+    radius: 30,
     country: 'NPL',
     centered: 'NPL',
-    fillKey: 'NPL'
+    fillKey: 'RED'
   },
   {
     name: 'Nigeria',
-    radius: 20,
+    radius: 25,
     country: 'NGA',
     centered: 'NGA',
-    fillKey: 'NGA'
+    fillKey: 'RED'
   },
   {
     name: 'Palestine',
-    radius: 35,
+    radius: 40,
     country: 'PSE',
     centered: 'PSE',
-    fillKey: 'PSE'
+    fillKey: 'BLUE'
   },
   {
     name: 'Rwanda',
-    radius: 30,
+    radius: 35,
     country: 'RWA',
     centered: 'RWA',
-    fillKey: 'RWA'
+    fillKey: 'BLUE',
+    latitude: 2,
+    longitude: 28
   },
   {
     name: 'South Africa',
-    radius: 40,
+    radius: 45,
     country: 'ZAF',
     centered: 'ZAF',
-    fillKey: 'ZAF' 
+    fillKey: 'BLUE',
+    latitude: -33,
+    longitude: 24 
   },
   {
     name: 'Tunisia',
-    radius: 25,
+    radius: 30,
     country: 'TUN',
     centered: 'TUN',
-    fillKey: 'TUN' 
+    fillKey: 'RED' 
 
 
   },
     {
     name: 'Zambia',
-    radius: 20,
+    radius: 25,
     country: 'ZMB',
     centered: 'ZMB',
-    fillKey: 'ZMB' 
+    fillKey: 'RED' 
   }
 ], {
   
