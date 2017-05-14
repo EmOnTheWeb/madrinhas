@@ -90,21 +90,34 @@ window.addEventListener('resize', function() {
 });
 (function($) {
     $(document).ready(function() {
+        
         var allMenteeDivs = $('.mk-employees'); 
+        var allMenteeHeadings = $('.page-template-page-mentee-map h3'); 
 
         $('circle').click(function() {
             
             allMenteeDivs.hide(); 
+            allMenteeHeadings.hide(); 
             var name = $(this).data('info').name; 
             name = name.toLowerCase().replace(/ /g,''); 
             var selector = '.mentees__' + name; 
-            $(selector).show();  
+            $(selector).show(); 
+            //show title 
+            $(selector).prev('h3').show();  
 
             //scroll down to view mentees
             $('html, body').animate({
                 scrollTop: $(selector).offset().top - ($('.mk-header-holder').outerHeight() + 150)
             }, 400);
 
+        }); 
+
+        $('.page-template-page-mentee-map .mk-go-top').click(function() {
+            
+            setTimeout(function() {
+                allMenteeDivs.hide(); 
+                allMenteeHeadings.hide(); 
+            }, 1000)
         }); 
     }); 
 })(jQuery);

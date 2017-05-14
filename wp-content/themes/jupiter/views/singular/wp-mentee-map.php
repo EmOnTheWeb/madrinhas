@@ -9,6 +9,7 @@ if (have_posts())
 		
 		do_action('mk_page_before_content');
 	?>
+	<h2>Click the circles to view mentees by country</h2>
 	<div id='bubbles' style="position: relative; width: 95%; margin:0 auto;">
 
 
