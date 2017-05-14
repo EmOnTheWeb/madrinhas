@@ -117,6 +117,18 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
         <script src="<?php echo get_template_directory_uri()?>/assets/js/menteemap.js"></script>
 
     <?php } ?>
+    <?php if( is_page(745)) { ?>
+    <script>
+        (function($) {
+            $('#jania-message').click(function(){
+
+                var bubbles = $('.bubble-wrap').addClass('fade-in');
+                $(this).remove(); 
+             
+            });
+        })(jQuery);
+    </script>
+    <?php } ?>
 
     <?php 
     // Asks W3C Total Cache plugin to move all JS and CSS assets to before body closing tag. It will help getting above 90 grade in google page speed.
