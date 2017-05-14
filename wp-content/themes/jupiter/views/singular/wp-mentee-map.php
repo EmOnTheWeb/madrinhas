@@ -52,7 +52,7 @@ if (have_posts())
 
 	</div>
 	<h2>Click the circles to view mentees by country</h2>
-	<div id='bubbles' style="position: relative; width: 95%; margin:0 auto;">
+	<div id='bubbles' style="position: relative; width: 100%; margin:0 auto;">
 
 
 
