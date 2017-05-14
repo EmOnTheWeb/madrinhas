@@ -444,8 +444,9 @@ body {
   	opacity:0; 
   	position: absolute;
     top: -400px;
-    left: 400px;
-    margin-top:0px; 
+    left: 35%;
+    margin-top:0px;
+    z-index:-1; 
 }
 
 .bubble {
@@ -527,8 +528,8 @@ body {
     z-index:100; 
 }
 #jania-message {
-	max-width:350px; 
-	width:auto; 
+
+	width:33.33%; 
 	text-align:center;
 	margin-top:-80px; 
     z-index: 100;
@@ -540,5 +541,50 @@ body {
     border-radius: 5px;
     border: 1px solid #EBEBEB;
     cursor:pointer; 
+}
+@media (max-width: 1000px) {
+	.bubble-wrap {
+	    width: calc(100% - 410px);
+	}
+}
+@media (max-width: 960px) {
+	.bubble-wrap {
+		width: calc(100% - 30px);
+    	left: 20px;
+    	top: -100px;
+	}
+	#jania-message {
+		position: relative;
+	    left: 50%;
+	    margin-top: -200px;
+    	margin-left: -32px;     
+	}
+	#fancy-title-3.trustees-title {
+		margin-left:10%;
+	}
+}
+@media (max-width:767px) {
+	#fancy-title-3.trustees-title {
+		margin-left:0!important;
+	}
+	.bubble-wrap {
+		top: -150px; 
+	}
+	#jania-message {
+		position:static; 
+    	margin: 0 auto;
+    	margin-top:-120px; 
+	}
+}
+@media (max-width:587px) {
+	#jania-message {
+		display:none; 
+	}
+	.bubble-wrap {
+		display:none;
+	}
+	.vc_custom_1494791495924.rest-of-trustees {
+		margin-top:-65px!important;
+	}
 }
 
