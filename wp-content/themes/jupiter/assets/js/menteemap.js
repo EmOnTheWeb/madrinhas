@@ -98,7 +98,12 @@ window.addEventListener('resize', function() {
             var name = $(this).data('info').name; 
             name = name.toLowerCase().replace(/ /g,''); 
             var selector = '.mentees__' + name; 
-            $(selector).fadeIn(800);  
+            $(selector).show();  
+
+            //scroll down to view mentees
+            $('html, body').animate({
+                scrollTop: $(selector).offset().top - ($('.mk-header-holder').outerHeight() + 150)
+            }, 400);
 
         }); 
     }); 
