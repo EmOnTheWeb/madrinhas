@@ -352,8 +352,39 @@ body {
 .bubbles circle:hover {
 	cursor:pointer;
 }
-.mentees__barbados {
+.mentees__barbados, .mentees__kenya, .mentees__nepal, .mentees__nigeria, .mentees__palestine, .mentees__rwanda, .mentees__southafrica, .mentees__tunisia, .mentees__zambia {
 	display:none;
+}
+.page-template-page-mentee-map h3 {
+	display:none; 
+}
+.page-template-page-mentee-map h2 {
+	font-size:25px!important;
+	width: 95%;
+    margin: 20px auto -40px;
+    text-transform:uppercase!important;
+}
+.page-template-page-mentee-map h3 {
+	padding-left: 20px;
+    color: #404040;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+}
+
+.page-template-page-mentee-map .mk-go-top {
+	background: rgba(0,0,0,.5);
+	top:150px; 
+	width: 150px;
+}
+.page-template-page-mentee-map .mk-go-top span {
+    display: inline-block;
+    padding-top: 12px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 12px 10px;
+    margin-left: 23px;
+    color: white;
 }
 
 
