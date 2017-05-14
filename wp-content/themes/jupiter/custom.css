@@ -349,5 +349,11 @@ body {
 	font-size:15px !important;
 	font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.bubbles circle:hover {
+	cursor:pointer;
+}
+.mentees__barbados {
+	display:none;
+}
 
 

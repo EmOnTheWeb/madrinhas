@@ -88,4 +88,19 @@ bubble_map.bubbles([
 window.addEventListener('resize', function() {
     bubble_map.resize();
 });
+(function($) {
+    $(document).ready(function() {
+        var allMenteeDivs = $('.mk-employees'); 
+
+        $('circle').click(function() {
+            
+            allMenteeDivs.hide(); 
+            var name = $(this).data('info').name; 
+            name = name.toLowerCase().replace(/ /g,''); 
+            var selector = '.mentees__' + name; 
+            $(selector).fadeIn(800);  
+
+        }); 
+    }); 
+})(jQuery);
      
