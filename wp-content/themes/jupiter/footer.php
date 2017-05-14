@@ -136,7 +136,16 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
         })(jQuery);
     </script>
     <?php } ?>
-
+    <?php if( is_page(788)) { ?>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/assets/js/slick.min.js"></script>
+    <script>
+    (function($) {
+        $('.mentor-slider').slick({
+  
+        });
+    })(jQuery);
+    </script>
+    <?php } ?>
     <?php 
     // Asks W3C Total Cache plugin to move all JS and CSS assets to before body closing tag. It will help getting above 90 grade in google page speed.
     if(isset($mk_options['pagespeed-optimization']) and $mk_options['pagespeed-optimization'] != 'false' and defined('W3TC')) {

@@ -9,6 +9,10 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
 	<script src="<?php echo get_template_directory_uri()?>/assets/js/datamaps.world.min.js"></script>
 	<?php } ?>
+	<?php if( is_page(788)) { ?>
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri()?>/assets/stylesheet/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri()?>/assets/stylesheet/slick.css"/>
+	<?php } ?>
 </head>
 
 <body <?php body_class(mk_get_body_class(global_get_post_id())); ?> <?php echo get_schema_markup('body'); ?> data-adminbar="<?php echo is_admin_bar_showing() ?>">
