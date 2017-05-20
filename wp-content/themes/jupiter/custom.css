@@ -44,10 +44,12 @@ body {
 }
 
 .vc_custom_1494158275563.homepage__call-to-action {
-	
 	border:none;
 }
+.homepage__call-to-action.vc_custom_1495274185994{
 
+	background:rgba(255,255,255, 0.9)!important; 
+}
 .homepage__call-to-action > .vc_cta3_content-container {
 	padding: 30px 20px!important;
 }
@@ -686,11 +688,11 @@ body {
 .what-we-do__row {
     padding-top: 20px;
     margin-top:45px; 
-/*    background-image: url('http://localhost:8888/wp-content/uploads/2017/01/home.jpg');*/
-  /*  background-size:cover;
+    background-image: url('http://localhost:8888/wp-content/uploads/2017/03/ayman.jpg');
+    background-size:350px;
     background-repeat:no-repeat;
-    background-position:center;
-    background-color: rgba(211,211,211, 0.8);*/
+    background-position:center right;
+    background-color: rgba(211,211,211, 0.8);
     background-color: #2aa666;
 }
 .what-we-do__row h2 {
@@ -699,14 +701,20 @@ body {
 	font-weight:bold;
 }
 
+.what-we-do__row section {
+	margin-bottom:20px;
+}
+
 .potrait-mentee {
 	position:relative;
 	width:364px;
 	height:364px;
+	background-position:center;
 	background-image: url('http://localhost:8888/wp-content/uploads/2017/04/1.jpg');
 }
 .potrait-mentor {
 	position:relative;
+	background-position:center;
 	width:364px;
 	height:364px;
 	background-size:contain;
@@ -771,4 +779,86 @@ body {
 	color:white; 
 	margin-top:20px; 
 	font-weight:500;
+}
+.where-we-work {
+	max-width: 1140px; 
+	width:100%; 
+	margin:80px auto; 
+	text-align:center;
+}
+.where-we-work img {
+	width:50%; 
+	max-width:375px;  
+	padding-left:20px;
+	box-sizing:border-box;
+	padding-right:10px; 
+}
+.where-we-work__text {
+	width: 50%;
+    float: right;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    padding-right:20px;
+    box-sizing:border-box; 
+    padding-left:10px; 
+}
+
+@media(max-width:995px) {
+	.potrait-mentee,.potrait-mentor {
+		width:300px;
+		height:300px; 
+	}
+	.fa-handshake-o {
+		font-size:60px!important; 
+		margin-left:-39px; 
+	}
+
+
+
+}
+@media(max-width:845px) {
+	.potrait-mentee,.potrait-mentor {
+		width:280px;
+		height:280px; 
+	}
+	.fa-handshake-o {
+		font-size:50px!important;
+		margin-left:-31px;
+	}
+}
+@media(max-width:783px) {
+	.fa-handshake-o {
+		top:350px; 
+	}
+}
+
+@media(max-width:500px) {
+	.where-we-work img, .where-we-work__text {
+		width:100%; 
+		padding-left:20px; 
+		padding-right:20px; 
+	}
+}
+
+@media(max-width:767px) {
+	.mentor-mentee-grid-section > .half-width:nth-of-type(1) {
+		float:none; 
+		margin-bottom:30px; 
+	}
+	.fa-handshake-o {
+		display:none!important;
+	}
+	.what-we-do__row section{
+		width:100% !important;
+	}
+	.master-holder .homepage__banner h1 {
+		margin-top:-300px !important; 
+	}
+}
+@media(max-width:350px) {
+	.potrait-mentee, .potrait-mentor {
+	    width: 250px;
+	    height: 250px;
+	}
 }
