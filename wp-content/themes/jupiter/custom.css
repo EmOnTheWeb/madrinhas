@@ -20,13 +20,16 @@ body {
 	font-weight:500;
 }
 
+.homepage__banner > .mk-page-section-inner {
+	border-bottom:4px solid saddlebrown;
+}
+
 .master-holder .homepage__banner h1 {
-	text-align:left;
+	text-align:center;
 	color:white;
 	font-size:36px;
 	font-weight:800;
-	padding-top:35px;
-	/*text-shadow: 2px 2px saddlebrown;*/
+	text-shadow: 2px 2px saddlebrown;
 }
 
 .master-holder .homepage__banner h2 {
@@ -537,10 +540,10 @@ body {
 	text-align:center;
 	margin-top:-80px; 
     z-index: 100;
-    background-color: #E4572E !important;
+    background-color: #f67132!important;
     color: white !important;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px 20px;
     border-radius: 5px;
     border: 1px solid #EBEBEB;
