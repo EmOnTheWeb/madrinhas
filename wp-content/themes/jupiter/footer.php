@@ -146,6 +146,28 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
     })(jQuery);
     </script>
     <?php } ?>
+    <script>
+     (function($) {
+
+        $(window).scroll(function() {
+
+            $('.animated-element').each(function(){
+             
+            var imagePos = $(this).offset().top;
+            console.log('image pos is' + imagePos); 
+            var topOfWindow = $(window).scrollTop();
+            console.log('top of window is' + topOfWindow); 
+                if (imagePos < (topOfWindow + ($(window).height() -200))) { 
+                    $(this).addClass("slideLeft");
+                }
+            });
+        });
+    })(jQuery);
+
+    </script>
+
+
+
     <?php 
     // Asks W3C Total Cache plugin to move all JS and CSS assets to before body closing tag. It will help getting above 90 grade in google page speed.
     if(isset($mk_options['pagespeed-optimization']) and $mk_options['pagespeed-optimization'] != 'false' and defined('W3TC')) {
