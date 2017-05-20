@@ -39,9 +39,6 @@ if (have_posts())
 		</div>
 	</div>
 </div>
-
-
-
 <?php 
 	    do_action('mk_page_after_content');
 		?>

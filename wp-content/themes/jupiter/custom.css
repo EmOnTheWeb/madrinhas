@@ -744,6 +744,7 @@ body {
 .mentor-mentee-grid-section {
 	margin-top:50px;
 	position:relative; 
+	margin-bottom:80px; 
 }
 .fa-handshake-o {
 	display: block !important;
@@ -753,4 +754,21 @@ body {
     top: 291px;
     font-size: 80px !important;
     margin-left: -50px;
+}
+.slogan {
+	background-color:#EF2D56;
+	padding:50px;
+	text-align:center;
+}
+.slogan quote {
+	max-width: 1140px; 
+	width:100%; 
+	font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.slogan .attribution {
+	color:white; 
+	margin-top:20px; 
+	font-weight:500;
 }
