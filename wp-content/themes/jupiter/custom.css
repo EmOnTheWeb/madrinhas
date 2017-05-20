@@ -698,3 +698,55 @@ body {
 	font-size:35px!important;
 	font-weight:bold;
 }
+
+.potrait-mentee {
+	position:relative;
+	width:364px;
+	height:364px;
+	background-image: url('http://localhost:8888/wp-content/uploads/2017/04/1.jpg');
+}
+.potrait-mentor {
+	position:relative;
+	width:364px;
+	height:364px;
+	background-size:contain;
+	background-image: url('http://localhost:8888/wp-content/uploads/bfi_thumb/myles_stacey-n85028rhsmnbq9u4flfdibufv4qw640f1ltujlhgy8.jpg');
+}
+.caption-bar {
+	position:absolute;
+	bottom:0;
+	background:rgba(0,0,0,.5); 
+	width: 100%;
+    height: 40px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.mentor-mentee-grid-section > .half-width {
+	float:left;
+	justify-content: center;
+}
+.mentor-mentee-grid-section > h2 {
+	text-align:center;
+    text-transform: uppercase!important;
+    font-size: 35px!important;
+    margin-bottom:30px; 
+}
+.mentor-mentee-grid-section p {
+	font-weight:500; 
+	margin-bottom:45px; 
+}
+.mentor-mentee-grid-section {
+	margin-top:50px;
+	position:relative; 
+}
+.fa-handshake-o {
+	display: block !important;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 291px;
+    font-size: 80px !important;
+    margin-left: -50px;
+}
