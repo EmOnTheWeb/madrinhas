@@ -47,8 +47,10 @@ body {
 	border:none;
 }
 .homepage__call-to-action.vc_custom_1495274185994{
-
 	background:rgba(255,255,255, 0.9)!important; 
+}
+.vc_general.vc_cta3.vc_cta3-shape-rounded.homepage__call-to-action {
+	border-radius:0px; 
 }
 .homepage__call-to-action > .vc_cta3_content-container {
 	padding: 30px 20px!important;
@@ -74,6 +76,10 @@ body {
     border-color: #6DAB3C;
     background-color: #96E6B3;
     font-size: 20px;
+    padding-top:60px!important; 
+}
+.vc_btn3.vc_btn3-color-green.vc_btn3-style-modern:focus, .vc_btn3.vc_btn3-color-green.vc_btn3-style-modern:hover {
+	background-color:#2aa666;
 }
 
 .homepage__location {
@@ -88,16 +94,17 @@ body {
 
 .homepage__location-text h2 {
 	font-size: 40px !important; 
-	color:white !important;
 }
 .homepage__location-text p {
-	color:white !important;
 	font-size:20px !important;
 }
 .homepage__location-text a {
 	border-bottom:2px solid #E4572E; 
 	text-decoration:none;
-	color:white!important;
+}
+
+.homepage__location-text a:hover {
+	color:black;
 }
 
 .homepage__location-text a { 
@@ -158,26 +165,35 @@ body {
 	margin-top:-32px!important;
 }
 .page__title h2 {
-	font-size: 20px!important;
+	font-size: 25px!important;
     text-transform: uppercase!important;
 }
 
 .page__objective {
 	margin-top:20px;
 	margin-bottom:18px!important;
+	padding:30px 80px;
+	padding-top:70px; 
+}
+.page-objective-row {
+	margin-bottom:110px; 
 }
 .page__objective p {
-	font-size:20px; 
+	font-size:25px;
+	max-width:1140px; 
+	margin:auto; 
+	font-weight:600; 
+	line-height:1.3; 
 }
 
 .page__process-block .mk-text-block{
 	margin-top:-20px;
 }
 .page__process-block .mk-text-block ol {
-	font-size:16px;
+	font-size:20px;
 }
 .page__process-block .mk-text-block li {
-	margin-bottom:15px; 
+	margin-bottom: 20px;
 }
 
 .about-us__gallery {
@@ -675,7 +691,8 @@ body {
 	font-size:25px;
 	text-transform:uppercase;
 	font-weight:700;
-	margin-top: 35px;
+	margin-top: 60px;
+	margin-bottom:30px;
 }
 
 .vc_btn3.vc_btn3-color-green.vc_btn3-style-modern {
@@ -750,9 +767,9 @@ body {
 	margin-bottom:45px; 
 }
 .mentor-mentee-grid-section {
-	margin-top:50px;
+	margin-top:90px;
 	position:relative; 
-	margin-bottom:80px; 
+	margin-bottom:120px; 
 }
 .fa-handshake-o {
 	display: block !important;
@@ -783,7 +800,8 @@ body {
 .where-we-work {
 	max-width: 1140px; 
 	width:100%; 
-	margin:80px auto; 
+	margin:110px auto; 
+	margin-bottom:100px; 
 	text-align:center;
 }
 .where-we-work img {
@@ -801,7 +819,7 @@ body {
     font-size: 18px;
     padding-right:20px;
     box-sizing:border-box; 
-    padding-left:10px; 
+    padding-left:0px; 
 }
 
 @media(max-width:995px) {
