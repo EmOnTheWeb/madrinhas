@@ -1032,3 +1032,8 @@ slideLeft
 .specialization:last-child {
 	margin-bottom:0px!important;
 }
+
+.hierachy-image {
+	text-align:center;
+	margin-top:60px; 
+}
