@@ -54,7 +54,7 @@ mk_build_main_wrapper( mk_get_view('singular', 'wp-what-we-do', true) );
 
 	<span class="ethos-letter" style="color:#009e4a;">T</span>
 	<span class = "hidden animated-element" style="display:inline-block;">
-	ackle Barriers – tackle barriers through their educational journey of discover and self worth.
+	ackle Barriers – tackle barriers through their educational journey of discovery and self worth.
 	</span>
 </div>
 
@@ -99,7 +99,7 @@ mk_build_main_wrapper( mk_get_view('singular', 'wp-what-we-do', true) );
 	<br>
 
 	<span class="ethos-letter" style="color:#009e4a;">T</span>	
-	ackle Barriers – tackle barriers through their educational journey of discover and self worth.
+	ackle Barriers – tackle barriers through their educational journey of discovery and self worth.
 	
 </div>
 <?php 
