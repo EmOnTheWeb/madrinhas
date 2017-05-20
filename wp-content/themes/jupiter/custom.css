@@ -172,11 +172,14 @@ body {
 .page__objective {
 	margin-top:20px;
 	margin-bottom:18px!important;
-	padding:30px 80px;
-	padding-top:70px; 
+	padding-bottom:30px!important; 
+	padding-top:70px!important;
+	text-align:center!important; 
+	padding-left:20px;
+	padding-right:20px; 
 }
 .page-objective-row {
-	margin-bottom:110px; 
+	margin-bottom:135px; 
 }
 .page__objective p {
 	font-size:25px;
@@ -184,6 +187,9 @@ body {
 	margin:auto; 
 	font-weight:600; 
 	line-height:1.3; 
+}
+.page__process-block {
+	margin-bottom:90px; 
 }
 
 .page__process-block .mk-text-block{
@@ -879,4 +885,8 @@ body {
 	    width: 250px;
 	    height: 250px;
 	}
+}
+
+.hidden {
+	visibility:hidden; 
 }
