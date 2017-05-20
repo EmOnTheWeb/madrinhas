@@ -154,9 +154,7 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
             $('.animated-element').each(function(){
              
             var imagePos = $(this).offset().top;
-            console.log('image pos is' + imagePos); 
             var topOfWindow = $(window).scrollTop();
-            console.log('top of window is' + topOfWindow); 
                 if (imagePos < (topOfWindow + ($(window).height() -200))) { 
                     $(this).addClass("slideLeft");
                 }
