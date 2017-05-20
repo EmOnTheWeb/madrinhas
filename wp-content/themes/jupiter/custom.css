@@ -30,6 +30,7 @@ body {
 	font-size:36px;
 	font-weight:800;
 	text-shadow: 2px 2px saddlebrown;
+	margin-top:-75px;
 }
 
 .master-holder .homepage__banner h2 {
@@ -43,8 +44,12 @@ body {
 }
 
 .vc_custom_1494158275563.homepage__call-to-action {
-	padding: 80px 20px!important;
+	
 	border:none;
+}
+
+.homepage__call-to-action > .vc_cta3_content-container {
+	padding: 30px 20px!important;
 }
 
 .homepage__call-to-action h2 {
@@ -54,6 +59,8 @@ body {
 }
 .homepage__call-to-action .p1 {
 	margin-bottom:25px!important;
+	font-size:18px !important;
+	font-weight:500 !important;
 }
     
 /*.mk-main-wrapper-holder {
@@ -61,10 +68,9 @@ body {
 }*/
 
 .vc_btn3.vc_btn3-color-green.vc_btn3-style-modern {
-	color: #fff;
     font-weight: bold;
     border-color: #6DAB3C;
-    background-color: #6DAB3C;
+    background-color: #96E6B3;
     font-size: 20px;
 }
 
@@ -661,4 +667,34 @@ body {
 .mentor-slider {
 	margin-top:100px; 
 	margin-bottom:100px; 
+}
+
+.master-holder .summary-text h2 {
+	font-size:25px;
+	text-transform:uppercase;
+	font-weight:700;
+	margin-top: 35px;
+}
+
+.vc_btn3.vc_btn3-color-green.vc_btn3-style-modern {
+	border-radius: 150px;
+    width: 150px;
+    height: 150px;
+    padding:10px;
+    color:#404040; 
+}
+.what-we-do__row {
+    padding-top: 20px;
+    margin-top:45px; 
+/*    background-image: url('http://localhost:8888/wp-content/uploads/2017/01/home.jpg');*/
+  /*  background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color: rgba(211,211,211, 0.8);*/
+    background-color: #2aa666;
+}
+.what-we-do__row h2 {
+	text-transform:uppercase!important;
+	font-size:35px!important;
+	font-weight:bold;
 }
