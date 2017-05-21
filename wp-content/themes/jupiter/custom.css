@@ -2,6 +2,15 @@ body {
 	font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #404040!important;
 }
+.mk-main-navigation ul.sub-menu a.menu-item-link {
+	color: #404040!important;
+}
+.mk-main-navigation li.no-mega-menu ul.sub-menu, .mk-main-navigation li.has-mega-menu > ul.sub-menu, .mk-shopping-cart-box {
+	background-color:#fdfdfd!important; 
+}
+.main-navigation-ul > li.no-mega-menu > ul.sub-menu:after, .main-navigation-ul > li.has-mega-menu > ul.sub-menu:after {
+	background-color: #EF2D56!important;
+}
 
 #theme-page {
 	min-height:100vh; 
@@ -569,10 +578,15 @@ body {
 	
     z-index:100; 
 }
-#jania-message {
+.jania-message-container {
+	width: 33.33333%; 
+	 
+}
 
-	width:33.33%; 
+#jania-message {
+	width:200px; 
 	text-align:center;
+	margin:0 auto;
 	margin-top:-80px; 
     z-index: 100;
     background-color: #f67132!important;
@@ -580,7 +594,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 0px;
     border: 1px solid #EBEBEB;
     cursor:pointer; 
 }
@@ -595,11 +609,13 @@ body {
     	left: 20px;
     	top: -100px;
 	}
+	.jania-message-container {
+		position:relative; 
+		margin-left:-32px; 
+		left:50%; 
+	}
 	#jania-message {
-		position: relative;
-	    left: 50%;
-	    margin-top: -200px;
-    	margin-left: -32px;     
+	    margin-top: -200px;    
 	}
 	#fancy-title-3.trustees-title {
 		margin-left:10%;
@@ -612,9 +628,13 @@ body {
 	.bubble-wrap {
 		top: -150px; 
 	}
+	.jania-message-container {
+		width: 100%;
+    	left: 0;
+    	margin-left:0px; 
+    	position: static;
+	}
 	#jania-message {
-		position:static; 
-    	margin: 0 auto;
     	margin-top:-120px; 
 	}
 }
@@ -1082,6 +1102,7 @@ slideLeft
 }
 .mk-single-employee .single-employee-content {
 	padding-left:20px; 
+	padding-right:20px; 
 }
 .mk-single-employee .team-member-name {
 	width:275px; 
