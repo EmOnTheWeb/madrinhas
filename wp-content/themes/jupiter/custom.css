@@ -1070,7 +1070,11 @@ slideLeft
 }
 
 .mk-single-employee > .theme-content > .mk-grid {
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex; 
+	-webkit-box-align:center; 
+	-ms-flex-align:center; 
 	align-items:center; 
 }
 .mk-single-employee .single-employee-sidebar {
