@@ -1063,6 +1063,7 @@ slideLeft
 .hierachy-image {
 	text-align:center;
 	margin-top:60px; 
+	margin-bottom:60px; 
 }
 
 .mk-post-nav.mk-post-next, .mk-post-nav.mk-post-prev {
@@ -1118,4 +1119,26 @@ slideLeft
 	.mk-single-employee .team-member-name {
 		width:100%; 
 	}
+}
+
+.potrait-overlay {
+	height:100%; 
+	background-color:black;
+	opacity:0; 
+	-webkit-transition: opacity .25s ease;
+	color:white;
+	text-align:center; 
+	padding-top:40%; 
+	font-size:20px; 
+	font-weight:500; 
+	cursor:pointer;
+	display:block; 
+	box-sizing:border-box; 
+}
+.potrait-overlay:hover {
+	color:white; 
+}
+
+.potrait-mentee:hover .potrait-overlay, .potrait-mentor:hover .potrait-overlay {
+	opacity:0.65; 
 }

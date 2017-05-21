@@ -26,7 +26,10 @@ if (have_posts())
 	    
 	<div class="half-width">
 		<div class = "potrait-mentee">
+			<a href="/beneficiaries/mentees" class="potrait-overlay">
+				View mentees
 
+		 	</a>
 		 	<div class = "caption-bar">A mentee!</div>
 		</div>
 	</div>
@@ -34,8 +37,11 @@ if (have_posts())
 
 	<div class="half-width">
 		<div class = "potrait-mentor">
+			<a href="/people/mentors" class="potrait-overlay">
+				View mentors
 
-		<div class = "caption-bar">A mentor!</div>
+		 	</a>
+			<div class = "caption-bar">A mentor!</div>
 		</div>
 	</div>
 </div>
