@@ -262,17 +262,19 @@ body {
     display: flex;
     justify-content: center;
     align-items:center; 
-    margin-bottom:150px; 
+    margin-bottom:130px; 
 }
 .graduation__text,.specialization__text {
-	font-size: 40px;
-    font-weight: 600;
+	font-size: 30px;
+    font-weight: 500;
     width: auto; 
  	margin-left:0; 
+ 	text-transform:uppercase; 
 }
 .specialization__text { 
 	font-size:30px;
 	margin-left:40px; 
+	text-transform:none; 
 }
 .text__number {
 	font-size:58px; 
@@ -592,7 +594,7 @@ body {
 	margin:0 auto;
 	margin-top:-80px; 
     z-index: 100;
-    background-color: #f67132!important;
+    background-color: #EF2D56!important;
     color: white !important;
     font-weight: bold;
     font-size: 20px;
@@ -668,7 +670,7 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 800!important;
-    background-color: #f67132!important;
+    background-color: #EF2D56!important;
     color: white!important;
     border-radius:0;
     z-index:3;
@@ -685,7 +687,7 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 800!important;
-    background-color: #f67132!important;
+    background-color: #EF2D56!important;
     color: white!important;
     border-radius:0;
     z-index:3;
@@ -1052,9 +1054,9 @@ slideLeft
 
 .specialization-stats-background {
 	width:100%; 
-	background-color:#f4f4f4;
-	padding-top:40px;
-	padding-bottom:60px; 
+	background-color:white;
+	padding-top:60px;
+	padding-bottom: 130px; 
 }
 .specialization:last-child {
 	margin-bottom:0px!important;
@@ -1076,7 +1078,7 @@ slideLeft
 .back-button {
 	width: 150px; 
 	height:45px; 
-	background-color: #f67132;
+	background-color: #EF2D56;
 	color: white; 
 	display:block; 
 	font-size:20px; 
@@ -1126,6 +1128,7 @@ slideLeft
 	background-color:black;
 	opacity:0; 
 	-webkit-transition: opacity .25s ease;
+	transition:opacity .25s ease;
 	color:white;
 	text-align:center; 
 	padding-top:40%; 
