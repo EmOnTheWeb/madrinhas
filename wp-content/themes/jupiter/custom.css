@@ -11,6 +11,9 @@ body {
 .main-navigation-ul > li.no-mega-menu > ul.sub-menu:after, .main-navigation-ul > li.has-mega-menu > ul.sub-menu:after {
 	background-color: #EF2D56!important;
 }
+.mk-main-navigation ul.sub-menu a.menu-item-link.js-smooth-scroll:hover, .main-navigation-ul ul.sub-menu li.current-menu-item > a.menu-item-link.js-smooth-scroll, .main-navigation-ul ul.sub-menu li.current-menu-parent > a.menu-item-link.js-smooth-scroll {
+	color: #EF2D56!important;
+}
 
 #theme-page {
 	min-height:100vh; 
@@ -108,7 +111,7 @@ body {
 	font-size:20px !important;
 }
 .homepage__location-text a {
-	border-bottom:2px solid #E4572E; 
+	border-bottom:2px solid #EF2D56; 
 	text-decoration:none;
 }
 
