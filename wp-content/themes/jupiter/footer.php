@@ -81,6 +81,12 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
     
     wp_footer();
 
+    if( is_page(712)) { ?>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="<?php echo get_template_directory_uri()?>/assets/js/datamaps.world.min.js"></script>
+    <?php } 
+
     if( (isset($mk_options['pagespeed-optimization']) and $mk_options['pagespeed-optimization'] != 'false')
      or (isset($mk_options['pagespeed-defer-optimization']) and $mk_options['pagespeed-defer-optimization'] != 'false')) {
     ?>
@@ -150,7 +156,7 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
      (function($) {
 
         $(window).scroll(function() {
-
+            
             $('.animated-element').each(function(){
              
             var imagePos = $(this).offset().top;

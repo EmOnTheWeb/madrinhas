@@ -4,11 +4,6 @@
     <?php wp_head(); ?>
     <script src="https://use.fontawesome.com/85dc49f962.js"></script>
     <script src="<?php echo get_template_directory_uri()?>/assets/js/number-counter.js"></script>
-    <?php if( is_page(712)) { ?>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
-	<script src="<?php echo get_template_directory_uri()?>/assets/js/datamaps.world.min.js"></script>
-	<?php } ?>
 	<?php if( is_page(788)) { ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri()?>/assets/stylesheet/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri()?>/assets/stylesheet/slick.css"/>
