@@ -1049,3 +1049,45 @@ slideLeft
 	transform: translate(0,-50px);*/
 	display:none;
 }
+.back-button {
+	width: 150px; 
+	height:45px; 
+	background-color: #f67132;
+	color: white; 
+	display:block; 
+	font-size:20px; 
+	font-weight: 800; 
+	float: right;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.back-button:hover {
+	opacity: 0.8; 
+	color:white!important; 
+}
+
+.mk-single-employee > .theme-content > .mk-grid {
+	display:flex; 
+	align-items:center; 
+}
+.mk-single-employee .single-employee-sidebar {
+	width: 100%; 
+}
+.mk-single-employee .single-employee-content {
+	padding-left:20px; 
+}
+.mk-single-employee .team-member-name {
+	width:275px; 
+}
+
+@media(max-width:767px) {
+	.mk-single-employee > .theme-content > .mk-grid {
+		display:block; 
+	}
+	.mk-single-employee .team-member-name {
+		width:100%; 
+	}
+}

@@ -100,4 +100,11 @@ if (!function_exists('mk_employees_meta_information')) {
 				</div>
 			</div>
 	<?php endif ?>
+	<?php 
+		$cats = get_the_terms($post->ID,'employees_category'); 
+		$link = ($cats[0]->slug === 'trustee')? '/trustees/' : '/mentors/'; 
+	?>
+	<a href="<?= $link ?>" class="back-button">
+		Back
+	</a>
 <?php endwhile;?>

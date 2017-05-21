@@ -14,5 +14,4 @@ $wrapper_class = 'mk-single-employee layout-'.$style;
 
 mk_build_main_wrapper( mk_get_view('singular', 'wp-single-employees', true), $wrapper_class );
 
-
 get_footer();
