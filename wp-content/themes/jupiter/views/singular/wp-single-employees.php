@@ -117,6 +117,7 @@ if (!function_exists('mk_employees_meta_information')) {
 	        'post_type' => 'employees',
 	        'order' => 'ASC',
     		'orderby' => 'title',
+    		'post__not_in' => array(113),
 	        'tax_query' => array(
 	            array(
 	                'taxonomy' => 'employees_category',
@@ -136,11 +137,16 @@ if (!function_exists('mk_employees_meta_information')) {
 	$previd = $ids[ $thisindex - 1 ];
 	$nextid = $ids[ $thisindex + 1 ];
 
-	if ( ! empty( $previd ) ) {
-	    ?><a rel="prev" class = 'prev-button' href="<?php echo get_permalink($previd) ?>">Previous</a><?php
-	}
-	if ( ! empty( $nextid ) ) {
-	    ?><a rel="next" class = 'next-button' href="<?php echo get_permalink($nextid) ?>">Next</a><?php
+	if(strtolower($post->post_title) !== 'jania geoghegan') {
+		if ( ! empty( $previd ) ) {
+		    ?><a rel="prev" class = 'prev-button' href="<?php echo get_permalink($previd) ?>">Previous</a><?php
+		}
+		else {?>
+			<a rel="prev" class = 'prev-button' href="<?php echo get_permalink(113) ?>">Previous</a><?php
+		}
+		if ( ! empty( $nextid ) ) {
+		    ?><a rel="next" class = 'next-button' href="<?php echo get_permalink($nextid) ?>">Next</a><?php
+		}
 	}
 
 	?>
