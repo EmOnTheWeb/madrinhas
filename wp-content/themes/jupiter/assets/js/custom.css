@@ -1,13 +1,6 @@
 body {
 	font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #404040!important;
-	max-width:1400px;
-	margin:auto; 
-	background-color:#f2f2f2!important;
-}
-.mk-header-inner {
-	max-width:1400px;
-	margin:auto; 
 }
 .mk-main-navigation ul.sub-menu a.menu-item-link {
 	color: #404040!important;
@@ -16,10 +9,10 @@ body {
 	background-color:#fdfdfd!important; 
 }
 .main-navigation-ul > li.no-mega-menu > ul.sub-menu:after, .main-navigation-ul > li.has-mega-menu > ul.sub-menu:after {
-	background-color: #D1495B!important;
+	background-color: #EF2D56!important;
 }
 .mk-main-navigation ul.sub-menu a.menu-item-link.js-smooth-scroll:hover, .main-navigation-ul ul.sub-menu li.current-menu-item > a.menu-item-link.js-smooth-scroll, .main-navigation-ul ul.sub-menu li.current-menu-parent > a.menu-item-link.js-smooth-scroll {
-	color: #D1495B!important;
+	color: #EF2D56!important;
 }
 
 #theme-page {
@@ -40,8 +33,7 @@ body {
 }
 
 .homepage__banner > .mk-page-section-inner {
-	/*border-bottom:4px solid royalblue;*/
-	background-color:royalblue;
+	border-bottom:4px solid saddlebrown;
 }
 
 .master-holder .homepage__banner h1 {
@@ -49,31 +41,8 @@ body {
 	color:white;
 	font-size:36px;
 	font-weight:800;
-	/*text-shadow: 2px 2px saddlebrown;*/
-	margin-top:6px;
-	position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    width: 100%;
-    z-index:5;
-    box-sizing:border-box; 
-}
-@media(max-width:767px) {
-	.master-holder .homepage__banner h1 {
-		font-size:30px; 
-	}
-}
-@media(max-width:400px) {
-	.master-holder .homepage__banner h1 {
-		font-size:21px; 
-	}
-}
-
-.homepage__banner > div.page-section-content, .homepage__banner .column_container {
-	position:static; 
+	text-shadow: 2px 2px saddlebrown;
+	margin-top:-75px;
 }
 
 .master-holder .homepage__banner h2 {
@@ -86,11 +55,11 @@ body {
     box-sizing: border-box;
 }
 
-.vc_general.vc_cta3.vc_cta3-shape-rounded.homepage__call-to-action{
-	background-color:#3859cc!important;
+.vc_custom_1494158275563.homepage__call-to-action {
 	border:none;
-	padding-top: 30px!important;
-    padding-bottom: 18px!important;
+}
+.homepage__call-to-action.vc_custom_1495274185994{
+	background:rgba(255,255,255, 0.9)!important; 
 }
 .vc_general.vc_cta3.vc_cta3-shape-rounded.homepage__call-to-action {
 	border-radius:0px; 
@@ -106,7 +75,7 @@ body {
 }
 .homepage__call-to-action .p1 {
 	margin-bottom:25px!important;
-	font-size:20px !important;
+	font-size:18px !important;
 	font-weight:500 !important;
 }
     
@@ -115,107 +84,14 @@ body {
 }*/
 
 .vc_btn3.vc_btn3-color-green.vc_btn3-style-modern {
-	-webkit-transition: all 0.3s ease-out; 
-    -moz-transition: all 0.3s ease-out; 
-    -o-transition: all 0.3s ease-out; 
-    transition: all 0.3s ease-out; 
     font-weight: bold;
-    border-color: #3859cc;
-    background-color: #3859cc;
-    border:none;
-    font-size: 15px;
-    margin-top:20px;
-    color:white!important;
-    text-transform:uppercase; 
-    padding-top:74px!important; 
-    background-size:contain; 
-    background-image:url('http://madrinha.emiliedannenberg.co.uk/wp-content/uploads/2017/05/circles-2.png');
+    border-color: #6DAB3C;
+    background-color: #96E6B3;
+    font-size: 20px;
+    padding-top:60px!important; 
 }
 .vc_btn3.vc_btn3-color-green.vc_btn3-style-modern:focus, .vc_btn3.vc_btn3-color-green.vc_btn3-style-modern:hover {
-	/*color:#1dc222!important;*/
-	 background-color: #3859cc;
-	 width:175px;
-	 height:175px;
-	 font-size:17px;
-	 padding-top:81px!important;
-
-}
-
-.homepage__partners-slogan p {
-	margin-bottom:0px!important;
-	font-weight:bold; 
-	color:white;
-	font-size:25px;
-	text-shadow: 1px 1px #212121; 
-	line-height:1.1;
-}
-.mk-fullwidth-true.partner-charities-slogan-row {
-	    filter: grayscale(25%);
-	    -webkit-filter:grayscale(25%);
-	    background-color:orange!important;
-}
-
-.family-images > div > div {
-	width:50%; 
-	height:300px; 
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:center center;
-}
-.family-images > div {
-	display:-webkit-box;display:-ms-flexbox;display:flex;
-}
-
-.family-images > div > .heading {
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-align:center;
-    -ms-flex-align:center;
-    align-items:center;
-    -webkit-box-pack:center;
-    -ms-flex-pack:center;
-    justify-content:center;
-    padding:0 20px;
-    box-sizing:border-box; 
-}
-
-@media(max-width:954px) {
-	.family-images > div > div {
-		height:250px; 
-	}
-}
-
-@media(max-width:767px) {
-	.family-images > div {
-	-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;
-	}
-	.family-images > div > div {
-		width:100%; 
-		height:300px; 
-	}
-}
-@media(max-width:650px) {
-	.family-images > div > div {
-		height:250px; 
-	}
-}
-@media(max-width:530px) {
-	.family-images > div > div {
-		height:200px;
-	}
-}
-
-.family-images > div > .heading span {
-	color: white;
-    font-size: 20px;
-    font-weight: 500;
-    text-transform:uppercase;
-}
-
-.family-images {
-	background-color:#52414C;
-	margin-top:2px;
+	background-color:#2aa666;
 }
 
 .homepage__location {
@@ -269,20 +145,6 @@ body {
 	 transform: scale(1.1);
 }
 
-a.homepage__partner-link {
-	-webkit-transition: all 0.3s ease-out; 
-    -moz-transition: all 0.3s ease-out; 
-    -o-transition: all 0.3s ease-out; 
-    transition: all 0.3s ease-out;
-    cursor:pointer;
-    color:white !important;
-    
-}
-a.homepage__partner-link:hover {
-	 font-size:26px;
-	 color:#3859cc !important;
-}
-
 .homepage__success-button button {
 	/*background-color:#af0000 !important; */
 	background-color:#E4572E !important; 
@@ -326,9 +188,9 @@ a.homepage__partner-link:hover {
 	margin-bottom:18px!important;
 	padding-bottom:30px!important; 
 	padding-top:70px!important;
+	text-align:center!important; 
 	padding-left:20px;
 	padding-right:20px; 
-	text-align:center!important;
 
 	padding: 60px 80px!important;
 }
@@ -457,18 +319,10 @@ a.homepage__partner-link:hover {
     align-items:center; 
 }
 .half-width:nth-child(1) {
-	-webkit-box-pack:start;
-	    -ms-flex-pack:start;
-	        justify-content:flex-start; 
+	justify-content:flex-start; 
 }
 .half-width:nth-child(2) {
-	-webkit-box-pack:end;
-	    -ms-flex-pack:end;
-	        justify-content:flex-end; 
-}
-.homepage__half-width {
-	width:50%; 
-	text-align:center;
+	justify-content:flex-end; 
 }
 
 .custom-container {
@@ -550,9 +404,6 @@ a.homepage__partner-link:hover {
 	font-size:15px !important;
 	font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#bubbles {
-	margin-bottom:40px!important; 
-}
 .bubbles circle:hover {
 	cursor:pointer;
 }
@@ -573,32 +424,10 @@ a.homepage__partner-link:hover {
 	padding-left: 20px;
     color: #404040;
     font-size: 20px;
-    margin-bottom: 140px;
+    margin-bottom: 50px;
     margin-top: -30px;
-    margin-right:30px;
 }
-.page-template-page-mentee-map h3+p { /**automatically wraps a p round the flag img **/
-	
-	margin-bottom:55px; 
-	display:none;
-	/*transform:translateY(-47%);
-	-webkit-transform: translateY(-47%);
-    -ms-transform: translateY(-47%);*/
-	width: 101px;
-    position: relative;
-}
-.nepal-flag {
-	border:1px solid black!important;
-}
-@media(max-width:945px) {
-	.page-template-page-mentee-map h3+p {
-		position:static;
-		margin-left:0px;
-		transform:translateY(0%);
-		-webkit-transform: translateY(0%);
-        -ms-transform: translateY(0%);
-	}
-}
+
 .page-template-page-mentee-map .mk-go-top {
 	background: rgba(0,0,0,.5);
 	top:150px; 
@@ -634,7 +463,7 @@ a.homepage__partner-link:hover {
 .mobile-flags {
 	display:none; 
 }
-@media (max-width: 767px) {
+@media (max-width: 715px) {
 	#bubbles, .page-template-page-mentee-map h2 {
 		display:none;
 	}
@@ -748,8 +577,6 @@ a.homepage__partner-link:hover {
 	 -webkit-transform-origin: 0 50% 0; 
 	         transform-origin: 0 50% 0; 
 	         opacity:1;
-	-webkit-animation-fill-mode: forwards;
-    		 animation-fill-mode: forwards;
 }
 
 .wpb_raw_html {
@@ -767,7 +594,7 @@ a.homepage__partner-link:hover {
 	margin:0 auto;
 	margin-top:-80px; 
     z-index: 100;
-    background-color: #D1495B!important;
+    background-color: #EF2D56!important;
     color: white !important;
     font-weight: bold;
     font-size: 20px;
@@ -843,7 +670,7 @@ a.homepage__partner-link:hover {
     text-align: center;
     font-size: 20px;
     font-weight: 800!important;
-    background-color: #D1495B!important;
+    background-color: #EF2D56!important;
     color: white!important;
     border-radius:0;
     z-index:3;
@@ -860,7 +687,7 @@ a.homepage__partner-link:hover {
     text-align: center;
     font-size: 20px;
     font-weight: 800!important;
-    background-color: #D1495B!important;
+    background-color: #EF2D56!important;
     color: white!important;
     border-radius:0;
     z-index:3;
@@ -905,34 +732,30 @@ a.homepage__partner-link:hover {
 }
 
 .vc_btn3.vc_btn3-color-green.vc_btn3-style-modern {
-	border-radius: 165px;
-    width: 165px;
-    height: 165px;
+	border-radius: 150px;
+    width: 150px;
+    height: 150px;
     padding:10px;
     color:#404040; 
 }
 .what-we-do__row {
     padding-top: 20px;
-  /*  background-image: url('http://madrinha.emiliedannenberg.co.uk/wp-content/uploads/2017/03/ayman.jpg');
-    background-size:350px;*/
+    margin-top:45px; 
+    background-image: url('http://madrinha.emiliedannenberg.co.uk/wp-content/uploads/2017/03/ayman.jpg');
+    background-size:350px;
     background-repeat:no-repeat;
     background-position:center right;
     background-color: rgba(211,211,211, 0.8);
     background-color: #2aa666;
-    filter:grayscale(20%)!important;
 }
 .what-we-do__row h2 {
 	text-transform:uppercase!important;
 	font-size:35px!important;
 	font-weight:bold;
-	color:white!important;
 }
 
 .what-we-do__row section {
 	margin-bottom:20px;
-}
-.homepage__call-to-action p {
-	color:white!important;
 }
 
 .potrait-mentee {
@@ -948,7 +771,7 @@ a.homepage__partner-link:hover {
 	width:364px;
 	height:364px;
 	background-size:contain;
-	background-image: url('http://madrinha.emiliedannenberg.co.uk/wp-content/uploads/2017/03/nick.jpg');
+	background-image: url('http://madrinha.emiliedannenberg.co.uk/wp-content/uploads/bfi_thumb/myles_stacey-n85028rhsmnbq9u4flfdibufv4qw640f1ltujlhgy8.jpg');
 }
 .caption-bar {
 	position:absolute;
@@ -961,26 +784,14 @@ a.homepage__partner-link:hover {
     font-weight: bold;
     font-size: 16px;
 }
-.homepage__potraits > .potrait-mentee, .homepage__potraits > .potrait-mentor {
-	display:inline-block;
-	margin-bottom:4px; 
-}
-.homepage__potraits > .potrait-mentee {
-	margin-right:60px;
-}
-.homepage__potraits > .potrait-mentor {
-	margin-left:60px;
-}
-/*.mentor-mentee-grid-section > .half-width:nth-of-type(1) .potrait-mentee {
-	float:right;
+.mentor-mentee-grid-section > .half-width {
+	float:left;
+	justify-content: center;
 }
 
-.mentor-mentee-grid-section > .half-width:nth-of-type(2) .potrait-mentor {
-	float:left;
-}*/
-/*.text-align-left {
-	text-align:left; 
-}*/
+.mentor-mentee-grid-section > .half-width:nth-of-type(2) {
+	float:none;
+}
 .mentor-mentee-grid-section > h2 {
 	text-align:center;
     text-transform: uppercase!important;
@@ -989,16 +800,12 @@ a.homepage__partner-link:hover {
 }
 .mentor-mentee-grid-section p {
 	font-weight:500; 
-	width:82%;
-	margin:auto; 
 	margin-bottom:45px; 
-	font-size:19px;
 }
 .mentor-mentee-grid-section {
 	margin-top:90px;
 	position:relative; 
-	margin-bottom:90px; 
-	text-align:center;
+	margin-bottom:120px; 
 }
 .fa-handshake-o {
 	display: block !important;
@@ -1007,10 +814,10 @@ a.homepage__partner-link:hover {
     left: 50%;
     top: 291px;
     font-size: 80px !important;
-    margin-left: -51.5px;
+    margin-left: -50px;
 }
 .slogan {
-	background-color:#D1495B;
+	background-color:#EF2D56;
 	padding:50px;
 	text-align:center;
 }
@@ -1056,10 +863,10 @@ a.homepage__partner-link:hover {
 		width:300px;
 		height:300px; 
 	}
-	/*.fa-handshake-o {
+	.fa-handshake-o {
 		font-size:60px!important; 
 		margin-left:-39px; 
-	}*/
+	}
 
 
 
@@ -1069,14 +876,14 @@ a.homepage__partner-link:hover {
 		width:280px;
 		height:280px; 
 	}
-	/*.fa-handshake-o {
+	.fa-handshake-o {
 		font-size:50px!important;
 		margin-left:-31px;
-	}*/
+	}
 }
-@media(max-width:782px) {
+@media(max-width:783px) {
 	.fa-handshake-o {
-		top:342px; 
+		top:350px; 
 	}
 }
 
@@ -1085,9 +892,6 @@ a.homepage__partner-link:hover {
 		width:100%; 
 		padding-left:20px; 
 		padding-right:20px; 
-	}
-	.where-we-work__text {
-		margin-top:-65px; 
 	}
 }
 
@@ -1099,25 +903,11 @@ a.homepage__partner-link:hover {
 	.fa-handshake-o {
 		display:none!important;
 	}
-	.homepage__potraits > .potrait-mentee {
-		margin-right:0px; 
-	}
-	.homepage__potraits > .potrait-mentor {
-		margin-left:0px; 
-	}
 	.what-we-do__row section{
 		width:100% !important;
 	}
 	.master-holder .homepage__banner h1 {
-		line-height:1!important; 
-		    padding-left: 20px;
-    padding-right: 20px;
-	}
-}
-
-@media(max-width:548px) {
-	.homepage__banner h1{
-		display:none;
+		margin-top:-300px !important; 
 	}
 }
 @media(max-width:350px) {
@@ -1201,7 +991,6 @@ slideLeft
 
 .our-ethos {
 	padding:110px 60px 120px 100px; 
-	background-color:white; 
 }
 
 .animated-element {
@@ -1284,39 +1073,26 @@ slideLeft
 	position: absolute;
 	background-color:gray; 
 	transform: translate(0,-50px);*/
-	background-color:#D1495B;
-	display:none!important;
+	display:none;
 }
-.back-button, .next-button, .prev-button {
+.back-button {
 	width: 150px; 
 	height:45px; 
-	background-color: #D1495B;
+	background-color: #EF2D56;
 	color: white; 
 	display:block; 
 	font-size:20px; 
 	font-weight: 800; 
+	float: right;
     text-align: center;
     padding-top: 10px;
     box-sizing: border-box;
+    margin-right: 20px;
     margin-top: 10px;
 }
-.back-button:hover, .next-button:hover, .prev-button:hover {
+.back-button:hover {
 	opacity: 0.8; 
 	color:white!important; 
-}
-.back-button {
-	position: absolute;
-    left: 50%;
-    margin-left: -75px;
-    font-size:16px; 
-}
-.next-button {
-	float:right; 
-	margin-right:20px; 
-}
-.prev-button {
-	margin-left:20px; 
-	float:left;
 }
 
 .mk-single-employee > .theme-content > .mk-grid {
@@ -1326,7 +1102,6 @@ slideLeft
 	-webkit-box-align:center; 
 	-ms-flex-align:center; 
 	align-items:center; 
-	margin-bottom:15px; 
 }
 .mk-single-employee .single-employee-sidebar {
 	width: 100%; 
@@ -1370,210 +1145,3 @@ slideLeft
 .potrait-mentee:hover .potrait-overlay, .potrait-mentor:hover .potrait-overlay {
 	opacity:0.65; 
 }
-
-.homepage__banner .mk-background-stretch, .homepage__banner .mk-background-stretch .parallax-layer {
-
-	background-size: cover; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-}
-
-.circle.barbados {
-	width: 4.5%;
-	height:auto; 
-    background-color: black;
-    position: absolute;
-    border-radius: 50%;
-    top: 45%;
-    left: 31.5%;
-    padding-top: 4.5%;
-    border: 2px solid white;
-    background: rgba(255, 0, 0,0.75);
-    z-index: 1;
-    box-sizing: content-box; 
-}
-.circle.barbados label {
-	
-    bottom: -26px;
-    left: 11px;
-}
-.circle label {
-	position: absolute;
-    font-size: 17px;
-    font-weight: bold;
-}
-
-.circle.tunisia {
-	width: 5.2%;
-    padding-top: 5.2%;
-    position: absolute;
-    background: rgba(255, 0, 0,0.75);
-    border-radius: 50%;
-    border: 2px solid white;
-    box-sizing: content-box;
-    left: 50%;
-    top: 34%;
-    z-index: 1;
-}
-.circle.tunisia label {
-	left: -27px;
-    top: -25px;
-}
-
-.circle.palestine {
-	width: 7%;
-    height: auto;
-    background: rgba(0, 0, 255,0.75);
-    border-radius: 50%;
-    border: 2px solid white;
-    box-sizing: content-box;
-    z-index: 1;
-    padding-top: 7%;
-    position: absolute;
-    left: 56%;
-    top: 33%;
-}
-
-.circle.palestine label {
-	top: -25px;
-    left: 30px;
-}
-.circle.rwanda {
-	width: 6%;
-    height: auto;
-    background: rgba(0, 0, 255,0.75);
-    border-radius: 50%;
-    border: 2px solid white;
-    box-sizing: content-box;
-    z-index: 3;
-    padding-top: 6%;
-    position: absolute;
-    left: 54.5%;
-    top: 49%;
-}
-
-.circle.rwanda label {
-	left: -36px;
-    top: -22px;
-}
-
-.circle.southafrica {
-	width: 8%;
-    height: auto;
-    background: rgba(0, 0, 255,0.75);
-    border-radius: 50%;
-    border: 2px solid white;
-    box-sizing: content-box;
-    z-index: 1;
-    padding-top: 8%;
-    position: absolute;
-    left: 52%;
-    top: 65%;
-}
-.circle.southafrica label {
-	width: 110px;
-    left: -6px;
-    bottom: -26px;
-}
-.circle.zambia {
-	width: 4.3%;
-    height: auto;
-    background: rgba(255, 0, 0,0.75);
-    border-radius: 50%;
-    border: 2px solid white;
-    box-sizing: content-box;
-    z-index: 4;
-    padding-top: 4.3%;
-    position: absolute;
-    left: 55.4%;
-    top: 58%;
-}
-.circle.zambia label {
-	right: -60px;
-    bottom: -15px;
-}
-.circle.kenya {
-	width: 5.2%;
-    height: auto;
-    background: rgba(255, 0, 0,0.75);
-    border-radius: 50%;
-    border: 2px solid white;
-    box-sizing: content-box;
-    z-index: 1;
-    padding-top: 5.2%;
-    position: absolute;
-    left: 59.8%;
-    top: 50%;
-}
-.circle.kenya label {
-	right: -13px;
-    top: -23px;
-}
-.circle.nepal {
-	width: 5.2%;
-    height: auto;
-    background: rgba(255, 0, 0,0.75);
-    border-radius: 50%;
-    border: 2px solid white;
-    box-sizing: content-box;
-    z-index: 1;
-    padding-top: 5.2%;
-    position: absolute;
-    left: 70.5%;
-    top: 36.9%;
-}
-.circle.nepal label {
-	left: 11px;
-    bottom: -26px;
-}
-.circle {
-	cursor:pointer;
-	display:none;
-}
-.enlarge {
-	 -webkit-animation-name: scaleIn ;
-	         animation-name: scaleIn ; 
-	 -webkit-animation-duration: 0.2s; 
-	         animation-duration: 0.2s; 
-	 -webkit-transform-origin: 0 50% 0; 
-	         transform-origin: 0 50% 0; 
-	         opacity:1;
-	-webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-@media(max-width:500px) {
-	.page-template-page-what-we-do .page__title {
-		padding-right:20px !important;
-		padding-left:20px !important; 
-	}
-	.page-template-page-what-we-do .page__objective {
-		padding-left:20px!important;
-		padding-right:20px!important;
-	}
-}
-
-.summary-text {
-	margin-bottom:-20px; 
-}
-.summary-text-row {
-	margin-top:-30px; 
-}
-
-.page-template-page-what-we-do a {
-	text-decoration:underline;
-}
-/*breakpoint 1140px ... .mk-header-holder .mk-header-nav-container {
-	display:block!important;
-}
-.header-style-1.header-align-left .mk-nav-responsive-link {
-	display:none!important;
-}
-
-.mk-header-holder .mk-header-inner.add-header-height, .header-style-1.header-align-left  .header-logo, .header-style-1.header-align-left .header-style-4 .header-logo {
-	height:130px!important; 
-	position:absolute!important;
-}
-*/
-
-/*@media(max-width:767px)*/

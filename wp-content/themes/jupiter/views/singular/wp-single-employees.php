@@ -105,6 +105,44 @@ if (!function_exists('mk_employees_meta_information')) {
 		$link = ($cats[0]->slug === 'trustee')? '/trustees/' : '/mentors/'; 
 	?>
 	<a href="<?= $link ?>" class="back-button">
-		Back
+		Back to <?= $cats[0]->name ?>s
 	</a>
+	<?php 
+		
+	$current_cat_id = $cats[0]->term_id; // current category ID 
+
+	$posts = get_posts(
+	    array(
+	        'posts_per_page' => -1,
+	        'post_type' => 'employees',
+	        'order' => 'ASC',
+    		'orderby' => 'title',
+	        'tax_query' => array(
+	            array(
+	                'taxonomy' => 'employees_category',
+	                'field' => 'term_id',
+	                'terms' => $cats[0]->term_id,
+	            )
+	        )
+	    )
+	);
+	// get IDs of posts retrieved from get_posts 
+	$ids = array();
+	foreach ( $posts as $thepost ) {
+	    $ids[] = $thepost->ID;
+	}
+	// get and echo previous and next post in the same category
+	$thisindex = array_search( $post->ID, $ids );
+	$previd = $ids[ $thisindex - 1 ];
+	$nextid = $ids[ $thisindex + 1 ];
+
+	if ( ! empty( $previd ) ) {
+	    ?><a rel="prev" class = 'prev-button' href="<?php echo get_permalink($previd) ?>">Previous</a><?php
+	}
+	if ( ! empty( $nextid ) ) {
+	    ?><a rel="next" class = 'next-button' href="<?php echo get_permalink($nextid) ?>">Next</a><?php
+	}
+
+	?>
+
 <?php endwhile;?>

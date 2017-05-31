@@ -19,31 +19,38 @@ if (have_posts())
 	    the_content();
 
 ?>
+<!-- <div class="homepage__partner-charities slogan">
+Our partner charities help us find promising students
+
+<div class="logo">
+</div>
+</div> -->
 <div class="mentor-mentee-grid-section">
 	<h2>We know every student we sponsor</h2>
 
-	<p class="p1">Once selected, each mentee is matched with a mentor. A mentor provides support throughout the mentees academic career, monitors their progress, and helps them realize their full potential. </p>
-	    
-	<div class="half-width">
-		<div class = "potrait-mentee">
-			<a href="/beneficiaries/mentees" class="potrait-overlay">
-				View mentees
+	<p class="p1">Once selected, each mentee is matched with a mentor. A mentor provides support throughout the mentee's academic career, monitors their progress, and helps them realize their full potential. </p>
+   
+		<div class="homepage__potraits">
+			<div class = "potrait-mentee">
+				<a href="/mentees" class="potrait-overlay">
+					View mentees
 
-		 	</a>
-		 	<div class = "caption-bar">A mentee!</div>
+			 	</a>
+			 	<div class = "caption-bar">A mentee!</div>
+			</div>
+		
+		<i class="fa fa-handshake-o" aria-hidden="true"></i>
+
+	
+			<div class = "potrait-mentor">
+				<a href="/mentors" class="potrait-overlay">
+					View mentors
+
+			 	</a>
+				<div class = "caption-bar">A mentor!</div>
+			</div>
 		</div>
-	</div>
-	<i class="fa fa-handshake-o" aria-hidden="true"></i>
-
-	<div class="half-width">
-		<div class = "potrait-mentor">
-			<a href="/people/mentors" class="potrait-overlay">
-				View mentors
-
-		 	</a>
-			<div class = "caption-bar">A mentor!</div>
-		</div>
-	</div>
+	
 </div>
 <?php 
 	    do_action('mk_page_after_content');
