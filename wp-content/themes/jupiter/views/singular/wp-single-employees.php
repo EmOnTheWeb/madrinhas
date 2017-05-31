@@ -126,7 +126,7 @@ if (!function_exists('mk_employees_meta_information')) {
 	            )
 	        )
 	    )
-	);
+	); 
 	// get IDs of posts retrieved from get_posts 
 	$ids = array();
 	foreach ( $posts as $thepost ) {
@@ -147,6 +147,9 @@ if (!function_exists('mk_employees_meta_information')) {
 		if ( ! empty( $nextid ) ) {
 		    ?><a rel="next" class = 'next-button' href="<?php echo get_permalink($nextid) ?>">Next</a><?php
 		}
+	}
+	else {
+		?><a rel="next" class = 'next-button' href="<?php echo get_permalink(123) ?>">Next</a><?php	
 	}
 
 	?>
