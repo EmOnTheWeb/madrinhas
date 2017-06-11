@@ -104,9 +104,7 @@ if (!function_exists('mk_employees_meta_information')) {
 		$cats = get_the_terms($post->ID,'employees_category'); 
 		$link = ($cats[0]->slug === 'trustee')? '/trustees/' : '/mentors/'; 
 	?>
-	<a href="<?= $link ?>" class="back-button">
-		Back to <?= $cats[0]->name ?>s
-	</a>
+	
 	<?php 
 		
 	$current_cat_id = $cats[0]->term_id; // current category ID 
@@ -136,7 +134,9 @@ if (!function_exists('mk_employees_meta_information')) {
 	$thisindex = array_search( $post->ID, $ids );
 	$previd = $ids[ $thisindex - 1 ];
 	$nextid = $ids[ $thisindex + 1 ];
-
+	?>
+	<div class="button-container-row">
+	<?php
 	if(strtolower($post->post_title) !== 'jania geoghegan') {
 		if ( ! empty( $previd ) ) {
 		    ?><a rel="prev" class = 'prev-button' href="<?php echo get_permalink($previd) ?>">Previous</a><?php
@@ -153,5 +153,9 @@ if (!function_exists('mk_employees_meta_information')) {
 	}
 
 	?>
+	</div>
+	<a href="<?= $link ?>" class="back-button">
+		Back to <?= $cats[0]->name ?>s
+	</a>
 
 <?php endwhile;?>

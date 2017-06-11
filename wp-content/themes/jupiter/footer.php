@@ -31,6 +31,7 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
     <?php if($mk_options['disable_footer'] == 'true' && !$footer_status) : ?>
     <div class="footer-wrapper<?php echo $footer_grid_status;?>">
         <div class="mk-padding-wrapper">
+            <p class="no-unsolicited">The Madrinha Trust does not accept unsolicited applications for funding</p>
             <?php mk_get_view('footer', 'widgets'); ?>
             <div class="clearboth"></div>
         </div>
@@ -124,7 +125,7 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
 
     <?php } ?>
     <?php if( is_page(745)) { ?>
-    <script>
+   <!--  <script>
         (function($) {
             $('#jania-message').click(function(){
 
@@ -140,7 +141,7 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
                 $('.vc_custom_1494791495924.rest-of-trustees').attr('style','margin-top:' + displace + 'px !important');
             });
         })(jQuery);
-    </script>
+    </script> -->
     <?php } ?>
     <?php if( is_page(788)) { ?>
     <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/assets/js/slick.min.js"></script>

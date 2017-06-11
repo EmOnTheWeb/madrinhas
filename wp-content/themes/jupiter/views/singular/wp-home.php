@@ -28,7 +28,7 @@ Our partner charities help us find promising students
 <div class="mentor-mentee-grid-section">
 	<h2>We know every student we sponsor</h2>
 
-	<p class="p1">Once selected, each mentee is matched with a mentor. A mentor provides support throughout the mentee's academic career, monitors their progress, and helps them realize their full potential. </p>
+	<p class="p1">Once selected, each mentee is matched with a mentor. A mentor provides support throughout the mentee's academic career, monitors their progress, and helps them realise their full potential. </p>
    
 		<div class="homepage__potraits">
 			<div class = "potrait-mentee">
