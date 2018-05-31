@@ -48,7 +48,7 @@ body {
 	text-align:center;
 	color:white;
 	font-size:45px;
-	font-weight:600;
+	font-weight:800;
 	/*text-shadow: 2px 2px saddlebrown;*/
 	margin-top:6px;
 	position: absolute;
@@ -62,6 +62,7 @@ body {
     box-sizing:border-box; 
     padding-left:70px;
     padding-right:70px;
+    text-transform:none; 
 }
 @media(max-width:767px) {
 	.master-holder .homepage__banner h1 {
@@ -131,7 +132,7 @@ body {
     text-transform:uppercase; 
     padding-top:74px!important; 
     background-size:contain; 
-    background-image:url('http://madrinha.emiliedannenberg.co.uk/wp-content/uploads/2017/05/circles-2.png');
+    background-image:url('http://madrinha-trust.org/wp-content/uploads/2017/05/circles-2.png');
 }
 .vc_btn3.vc_btn3-color-green.vc_btn3-style-modern:focus, .vc_btn3.vc_btn3-color-green.vc_btn3-style-modern:hover {
 	/*color:#1dc222!important;*/
@@ -588,7 +589,7 @@ a.homepage__partner-link:hover {
 .bubbles circle:hover {
 	cursor:pointer;
 }
-.mentees__barbados, .mentees__kenya, .mentees__nepal, .mentees__nigeria, .mentees__palestine, .mentees__rwanda, .mentees__southafrica, .mentees__tunisia, .mentees__zambia {
+.mentees__barbados, .mentees__kenya, .mentees__nepal, .mentees__nigeria, .mentees__palestine, .mentees__rwanda, .mentees__southafrica, .mentees__tunisia, .mentees__zambia, .mentees__ghana {
 	display:none;
 }
 .page-template-page-mentee-map h3 {
@@ -1024,7 +1025,7 @@ a.homepage__partner-link:hover {
 	width:364px;
 	height:364px;
 	background-position:center;
-	background-image: url('http://madrinha.emiliedannenberg.co.uk/wp-content/uploads/2017/04/1.jpg');
+	background-image: url('http://madrinha-trust.org/wp-content/uploads/2017/04/1.jpg');
 }
 .potrait-mentor {
 	position:relative;
@@ -1032,7 +1033,7 @@ a.homepage__partner-link:hover {
 	width:364px;
 	height:364px;
 	background-size:contain;
-	background-image: url('http://madrinha.emiliedannenberg.co.uk/wp-content/uploads/2017/03/nick.jpg');
+	background-image: url('http://madrinha-trust.org/wp-content/uploads/2017/03/nick.jpg');
 }
 .caption-bar {
 	position:absolute;
@@ -1559,7 +1560,7 @@ slideLeft
 }
 
 .circle.rwanda label {
-	left: -36px;
+	left: -18px;
     top: -22px;
 }
 
@@ -1597,6 +1598,23 @@ slideLeft
 .circle.zambia label {
 	right: -60px;
     bottom: -15px;
+}
+.circle.ghana {
+	width: 4.3%;
+    height: auto;
+    background: rgba(255, 0, 0,0.75);
+    border-radius: 50%;
+    border: 2px solid white;
+    box-sizing: content-box;
+    z-index: 4;
+    padding-top: 4.3%;
+    position: absolute;
+    left: 48.4%;
+    top: 49%;
+}
+.circle.ghana label {
+	right: 10px;
+    bottom: -22px;
 }
 .circle.kenya {
 	width: 5.2%;

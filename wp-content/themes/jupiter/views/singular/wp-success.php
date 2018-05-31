@@ -20,7 +20,7 @@ if (have_posts())
 			<div class = 'graduation__text'>
 			<?php $uploads = wp_upload_dir(); ?>
 			
-				<span class = 'text__number' ><img src='<?php echo $uploads['baseurl']; ?>/2017/fancy/circles.png'><span class='count'>9</span> </span>of our mentees have graduated
+				<span class = 'text__number' ><img src='<?php echo $uploads['baseurl']; ?>/2017/fancy/circles.png'><span class='count'>14</span> </span>of our mentees have graduated
 
 			</div>
 

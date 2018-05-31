@@ -39,7 +39,7 @@ mk_build_main_wrapper( mk_get_view('singular', 'wp-success', true) );
 
 
 					<div class = 'specialization__text'>
-						<span class = 'text__number'><span class='count'>1</span></span>  Graduated in <br><span class = 'text__specialization'>medicine</span>
+						<span class = 'text__number'><span class='count'>5</span></span>  Graduated in <br><span class = 'text__specialization'>medicine</span>
 
 					</div>
 				</div>
@@ -56,10 +56,18 @@ mk_build_main_wrapper( mk_get_view('singular', 'wp-success', true) );
 
 			<div class = 'specialization'>
 				<div class = 'half-width'>
+					<i class="fa fa-medkit specicalization__icon" aria-hidden="true"></i>
+
+					<div class = 'specialization__text'>
+						<span class = 'text__number'><span class='count'>1</span></span>  Graduated in <br><span class = 'text__specialization'>nursing</span>
+
+					</div>
+				</div>
+				<div class = 'half-width'>
 					<i class="fa fa-paw specicalization__icon" aria-hidden="true"></i>
 
 					<div class = 'specialization__text'>
-						<span class = 'text__number'><span class='count'>1</span></span>  Graduated in <br><span class = 'text__specialization'>vetinary science</span>
+						<span class = 'text__number'><span class='count'>1</span></span>  Graduated in <br><span class = 'text__specialization'>veterinary science</span>
 
 					</div>
 				</div>

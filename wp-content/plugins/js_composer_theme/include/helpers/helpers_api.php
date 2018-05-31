@@ -265,6 +265,7 @@ if ( ! function_exists( 'vc_shortcodes_theme_parent_templates_dir' ) ) {
           return vc_manager()->getShortcodesParentTemplateDir( $template );
      }
 }
+
 if ( ! function_exists( 'vc_shortcodes_theme_templates_dir' ) ) {
 	/**
 	 * Get custom theme template path

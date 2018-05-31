@@ -55,6 +55,7 @@ if (have_posts())
 		<div class="circle nepal" data-info="Nepal"><label>Nepal</label></div>
 		<div class="circle kenya" data-info="Kenya"><label>Kenya</label></div>
 		<div class="circle tunisia" data-info="Tunisia"><label>Tunisia</label></div>
+		<div class="circle ghana" data-info="Ghana"><label>Ghana</label></div>
 	</div>
 
 	<?php 
