@@ -3,10 +3,9 @@
 <head>
     <?php wp_head(); ?>
     <script src="https://use.fontawesome.com/85dc49f962.js"></script>
-    <script src="<?php echo get_template_directory_uri()?>/assets/js/number-counter.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri()?>/assets/js/number-counter.js"></script>
 	<?php if( is_page(788)) { ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri()?>/assets/stylesheet/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri()?>/assets/stylesheet/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/assets/stylesheet/slick.css"/>
 	<?php } ?>
 </head>
 
