@@ -44,6 +44,14 @@ if (have_posts())
 			<h4>Zambia</h4>
 			<img src="<?php echo $uploads['baseurl']; ?>/2017/03/zm.gif">
 		</div>
+		<div class='mobile-flags__title-flag'>
+			<h4>Tanzania</h4>
+			<img src="<?php echo $uploads['baseurl']; ?>/2018/12/tanzania.png">
+		</div>
+		<div class='mobile-flags__title-flag'>
+			<h4>Uganda</h4>
+			<img src="<?php echo $uploads['baseurl']; ?>/2018/12/uganda.png">
+		</div>
 	</div>
 	<h2>Click the circles to view mentees by country</h2>
 	<div id='bubbles' style="position: relative; width: 100%; margin:0 auto;">
@@ -56,6 +64,8 @@ if (have_posts())
 		<div class="circle kenya" data-info="Kenya"><label>Kenya</label></div>
 		<div class="circle tunisia" data-info="Tunisia"><label>Tunisia</label></div>
 		<div class="circle ghana" data-info="Ghana"><label>Ghana</label></div>
+		<div class="circle tanzania" data-info="Tanzania"><label>Tanzania</label></div>
+		<div class="circle uganda" data-info="Uganda"><label>Uganda</label></div>
 	</div>
 
 	<?php 

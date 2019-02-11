@@ -71,7 +71,7 @@ body {
 }
 @media(max-width:400px) {
 	.master-holder .homepage__banner h1 {
-		font-size:21px; 
+		/*font-size:21px; */
 	}
 }
 
@@ -494,9 +494,9 @@ a.homepage__partner-link:hover {
 	        justify-content:flex-start; 
 }
 .half-width:nth-child(2) {
-	-webkit-box-pack:end;
-	    -ms-flex-pack:end;
-	        justify-content:flex-end; 
+	-webkit-box-pack:start;
+	    -ms-flex-pack:start;
+	        justify-content:flex-start; 
 }
 .homepage__half-width {
 	width:50%; 
@@ -589,7 +589,7 @@ a.homepage__partner-link:hover {
 .bubbles circle:hover {
 	cursor:pointer;
 }
-.mentees__barbados, .mentees__kenya, .mentees__nepal, .mentees__nigeria, .mentees__palestine, .mentees__rwanda, .mentees__southafrica, .mentees__tunisia, .mentees__zambia, .mentees__ghana {
+.mentees__barbados, .mentees__kenya, .mentees__nepal, .mentees__nigeria, .mentees__palestine, .mentees__rwanda, .mentees__southafrica, .mentees__tunisia, .mentees__zambia, .mentees__ghana, .mentees__tanzania, .mentees__uganda {
 	display:none;
 }
 .page-template-page-mentee-map h3 {
@@ -1194,7 +1194,7 @@ a.homepage__partner-link:hover {
 		width:100% !important;
 	}
 	.master-holder .homepage__banner h1 {
-		line-height:1!important; 
+		/*line-height:1!important; */
 		    padding-left: 20px;
     padding-right: 20px;
 	}
@@ -1546,22 +1546,60 @@ slideLeft
     left: 30px;
 }
 .circle.rwanda {
-	width: 6%;
+	width: 4%;
     height: auto;
     background: rgba(0, 0, 255,0.75);
     border-radius: 50%;
     border: 2px solid white;
     box-sizing: content-box;
-    z-index: 3;
-    padding-top: 6%;
+    z-index: 4;
+    padding-top: 4%;
     position: absolute;
-    left: 54.5%;
-    top: 49%;
+    left: 54.7%;
+    top: 54%;
 }
 
 .circle.rwanda label {
-	left: -18px;
-    top: -22px;
+	left: -29px;
+    top: -20px;
+}
+
+.circle.tanzania label {
+	left: 41px;
+    top: 33px;
+}
+
+.circle.tanzania {
+	width: 4%;
+    height: auto;
+    background: rgba(0, 0, 255,0.75);
+    border-radius: 50%;
+    border: 2px solid white;
+    box-sizing: content-box;
+    z-index: 4;
+    padding-top: 4%;
+    position: absolute;
+    left: 58.7%;
+    top: 56%;
+}
+
+.circle.uganda label {
+	top: -18px;
+    left: -36px;
+}
+
+.circle.uganda {
+	width: 3.3%;
+    height: auto;
+    background: rgba(255, 0, 0,0.75);
+    border-radius: 50%;
+    border: 2px solid white;
+    box-sizing: content-box;
+    z-index: 3;
+    padding-top: 3.3%;
+    position: absolute;
+    left: 57.4%;
+    top: 49%;
 }
 
 .circle.southafrica {
@@ -1593,7 +1631,7 @@ slideLeft
     padding-top: 4.3%;
     position: absolute;
     left: 55.4%;
-    top: 58%;
+    top: 60%;
 }
 .circle.zambia label {
 	right: -60px;
@@ -1606,7 +1644,7 @@ slideLeft
     border-radius: 50%;
     border: 2px solid white;
     box-sizing: content-box;
-    z-index: 4;
+    z-index: 3;
     padding-top: 4.3%;
     position: absolute;
     left: 48.4%;
@@ -1626,7 +1664,7 @@ slideLeft
     z-index: 1;
     padding-top: 5.2%;
     position: absolute;
-    left: 59.8%;
+    left: 60.8%; 
     top: 50%;
 }
 .circle.kenya label {

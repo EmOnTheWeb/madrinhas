@@ -27,7 +27,7 @@ mk_build_main_wrapper( mk_get_view('singular', 'wp-success', true) );
 					<i class="fa fa-briefcase specicalization__icon" aria-hidden="true"></i>
 
 					<div class = 'specialization__text'>
-						<span class = 'text__number'><span class='count'>1</span></span>  Graduated in <br><span class = 'text__specialization'>business studies</span>
+						<span class = 'text__number'><span class='count'>2</span></span>  Graduated in <br><span class = 'text__specialization'>business studies</span>
 
 					</div>
 				</div>
@@ -39,7 +39,7 @@ mk_build_main_wrapper( mk_get_view('singular', 'wp-success', true) );
 
 
 					<div class = 'specialization__text'>
-						<span class = 'text__number'><span class='count'>5</span></span>  Graduated in <br><span class = 'text__specialization'>medicine</span>
+						<span class = 'text__number'><span class='count'>8</span></span>  Graduated in <br><span class = 'text__specialization'>medicine / medical science</span>
 
 					</div>
 				</div>
@@ -70,6 +70,39 @@ mk_build_main_wrapper( mk_get_view('singular', 'wp-success', true) );
 						<span class = 'text__number'><span class='count'>1</span></span>  Graduated in <br><span class = 'text__specialization'>veterinary science</span>
 
 					</div>
+				</div>
+			</div>
+
+			<div class = 'specialization'>
+				<div class = 'half-width'>
+					<i class="fa fa-wrench specicalization__icon" aria-hidden="true"></i>
+
+					<div class = 'specialization__text'>
+						<span class = 'text__number'><span class='count'>2</span></span>  Graduated in <br><span class = 'text__specialization'>Engineering</span>
+
+					</div>
+				</div>
+				<div class = 'half-width'>
+					<i class="fa fa-building specicalization__icon" aria-hidden="true"></i>
+
+					<div class = 'specialization__text'>
+						<span class = 'text__number'><span class='count'>1</span></span>  Graduated in <br><span class = 'text__specialization'>Interior Design</span>
+
+					</div>
+				</div>
+			</div>
+
+			<div class = 'specialization'>
+				<div class = 'half-width'>
+					<i class="fa fa-line-chart specicalization__icon" aria-hidden="true"></i>
+
+					<div class = 'specialization__text'>
+						<span class = 'text__number'><span class='count'>1</span></span>  Graduated in <br><span class = 'text__specialization'>Media Studies</span>
+
+					</div>
+				</div>
+				<div class = 'half-width'>
+					
 				</div>
 			</div>
 	
