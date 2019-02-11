@@ -1773,4 +1773,27 @@ display:none!important;
     font-weight: bold;
     display: block;
 }
+.slick-style-btn {
+
+	display: inline-block!important;
+    opacity: 1!important;
+    width: 150px!important;
+    height: 45px!important;
+    text-align: center;
+    font-size: 16px;
+    padding-top:5px;
+    line-height:1.1;
+    font-weight: 800!important;
+    background-color: #D1495B!important;
+    color: white!important;
+    border-radius: 0;
+    z-index: 3;
+    border: none;
+    box-sizing:border-box; 
+
+}
+
+.slick-style-btn:first-child {
+	margin-right:20px;
+}
 
