@@ -16,6 +16,11 @@ echo '<section style="background-color:white; padding:40px 80px;"><a class="slic
 
 mk_build_main_wrapper( mk_get_view('singular', 'wp-mentee-study-overview', true) );
 
+echo '<section style="padding: 60px 80px;font-size:22px;font-weight:500;line-height:1.2;">'; 
+echo 'We operate with 13 partners out of 10 countries'; 
+
+echo '</section>'; 
+
 mk_build_main_wrapper( mk_get_view('singular', 'wp-mentee-map', true) );
 
 get_footer();

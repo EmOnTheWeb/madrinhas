@@ -1800,9 +1800,9 @@ display:none!important;
 
 section.mentee-study {
 	position:relative;
-	height:100vh; 
-	min-height:500px;
-	padding:60px;
+
+	min-height:600px;
+	padding:80px 60px; 
 }
 .mentee-study__img {
 	position:absolute; 
@@ -1834,6 +1834,18 @@ section.mentee-study {
 	font-weight:bold;
 	font-size:24px;
 	display:inline-block;
+}
+.page-template-page-mentee-map h2 {
+	margin-top:85px;
+	margin-left:83px;
+	margin-bottom: -30px;
+   	font-size: 20px!important;
+}
+.page-template-page-mentee-map-php #theme-page {
+	min-height:0px;
+}
+.page-template-page-mentee-map-php #theme-page .theme-page-wrapper .theme-content {
+	padding:0px!important;
 }
 hr.one {
     
@@ -1922,12 +1934,43 @@ div.thirteen {
 .mentee-study .mobile {
 	display:none; 
 }
+.mentee-study .specialization {
+	display:block;
+	margin-bottom:0px;
+}
+.mentee-study .specialization-stats-background {
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.mentee-study .specialization .half-width {
+	width:100%; 
+	display:block;
+	margin-bottom:40px; 
+}
+.mentee-study .specicalization__icon {
+	margin-bottom:20px; 
+}
+.mentee-study .specicalization__icon {
+	font-size:75px!important;
+}
+
 @media(max-width:767px) {
 	.mentee-study .desktop {
 		display:none; 
 	}
 	.mentee-study .mobile {
 		display:block; 
+	}
+	.page-template-page-mentee-map h2 {
+		margin-left:auto; 
+		margin-bottom:30px;
+	}
+}
+@media(max-width:480px) {
+
+	.slick-style-btn {
+		display:block!important;
+		margin-bottom:15px;
 	}
 }
 

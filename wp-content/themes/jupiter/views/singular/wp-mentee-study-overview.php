@@ -27,16 +27,16 @@
 							<i class="fa fa-graduation-cap specicalization__icon" aria-hidden="true"></i>
 
 							<div class = 'specialization__text'>
-								<span class = 'text__number'><span class='count'>4</span></span>  Graduated in <br><span class = 'text__specialization'>teaching</span>
+								<span class = 'text__number'><span class='count'>8</span></span>  Are studying <br><span class = 'text__specialization'>teaching</span>
 
 							</div>
 						</div>
 
 						<div class = 'half-width'>
-							<i class="fa fa-briefcase specicalization__icon" aria-hidden="true"></i>
+							<i class="fa fa-money specicalization__icon" aria-hidden="true"></i>
 
 							<div class = 'specialization__text'>
-								<span class = 'text__number'><span class='count'>2</span></span>  Graduated in <br><span class = 'text__specialization'>business studies</span>
+								<span class = 'text__number'><span class='count'>3</span></span>  Are studying <br><span class = 'text__specialization'>economics</span>
 
 							</div>
 						</div>
@@ -48,16 +48,16 @@
 
 
 							<div class = 'specialization__text'>
-								<span class = 'text__number'><span class='count'>8</span></span>  Graduated in <br><span class = 'text__specialization'>medicine / medical science</span>
+								<span class = 'text__number'><span class='count'>21</span></span>  Are studying <br><span class = 'text__specialization'>medicine / medical science</span>
 
 							</div>
 						</div>
 
 						<div class = 'half-width'>
-							<i class="fa fa-users specicalization__icon" aria-hidden="true"></i>
+							<i class="fa fa-laptop specicalization__icon" aria-hidden="true"></i>
 
 							<div class = 'specialization__text'>
-								<span class = 'text__number'><span class='count'>2</span></span>  Graduated in <br><span class = 'text__specialization'>performing arts</span>
+								<span class = 'text__number'><span class='count'>5</span></span> Are studying <br><span class = 'text__specialization'>IT</span>
 
 							</div>
 						</div>
@@ -65,18 +65,18 @@
 
 					<div class = 'specialization'>
 						<div class = 'half-width'>
-							<i class="fa fa-medkit specicalization__icon" aria-hidden="true"></i>
+							<i class="fa fa-users specicalization__icon" aria-hidden="true"></i>
 
 							<div class = 'specialization__text'>
-								<span class = 'text__number'><span class='count'>1</span></span>  Graduated in <br><span class = 'text__specialization'>nursing</span>
+								<span class = 'text__number'><span class='count'>1</span></span>  Are studying <br><span class = 'text__specialization'>tourism</span>
 
 							</div>
 						</div>
 						<div class = 'half-width'>
-							<i class="fa fa-paw specicalization__icon" aria-hidden="true"></i>
+							<i class="fa fa-briefcase specicalization__icon" aria-hidden="true"></i>
 
 							<div class = 'specialization__text'>
-								<span class = 'text__number'><span class='count'>1</span></span>  Graduated in <br><span class = 'text__specialization'>veterinary science</span>
+								<span class = 'text__number'><span class='count'>8</span></span>  Are studying <br><span class = 'text__specialization'>business</span>
 
 							</div>
 						</div>
@@ -87,15 +87,15 @@
 							<i class="fa fa-wrench specicalization__icon" aria-hidden="true"></i>
 
 							<div class = 'specialization__text'>
-								<span class = 'text__number'><span class='count'>2</span></span>  Graduated in <br><span class = 'text__specialization'>Engineering</span>
+								<span class = 'text__number'><span class='count'>7</span></span>  are studying <br><span class = 'text__specialization'>Engineering</span>
 
 							</div>
 						</div>
 						<div class = 'half-width'>
-							<i class="fa fa-building specicalization__icon" aria-hidden="true"></i>
+							<i class="fa fa-pencil specicalization__icon" aria-hidden="true"></i>
 
 							<div class = 'specialization__text'>
-								<span class = 'text__number'><span class='count'>1</span></span>  Graduated in <br><span class = 'text__specialization'>Interior Design</span>
+								<span class = 'text__number'><span class='count'>4</span></span>  are studying <br><span class = 'text__specialization'>Accounting</span>
 
 							</div>
 						</div>
@@ -103,18 +103,51 @@
 
 					<div class = 'specialization'>
 						<div class = 'half-width'>
-							<i class="fa fa-line-chart specicalization__icon" aria-hidden="true"></i>
+							<i class="fa fa-street-view specicalization__icon" aria-hidden="true"></i>
 
 							<div class = 'specialization__text'>
-								<span class = 'text__number'><span class='count'>1</span></span>  Graduated in <br><span class = 'text__specialization'>Media Studies</span>
+								<span class = 'text__number'><span class='count'>4</span></span>  are studying <br><span class = 'text__specialization'>Social work</span>
 
 							</div>
 						</div>
 						<div class = 'half-width'>
-							
+							<i class="fa fa-tree specicalization__icon" aria-hidden="true"></i>
+
+							<div class = 'specialization__text'>
+								<span class = 'text__number'><span class='count'>4</span></span>  are studying <br><span class = 'text__specialization'>environmental science</span>
+
+							</div>
 						</div>
 					</div>
-			
+
+					<div class = 'specialization'>
+						<div class = 'half-width'>
+							<i class="fa fa-plus specicalization__icon" aria-hidden="true"></i>
+
+							<div class = 'specialization__text'>
+								<span class = 'text__number'><span class='count'>6</span></span>  are studying <br><span class = 'text__specialization'>Science and math</span>
+
+							</div>
+						</div>
+						<div class = 'half-width'>
+							<i class="fa fa-globe specicalization__icon" aria-hidden="true"></i>
+
+							<div class = 'specialization__text'>
+								<span class = 'text__number'><span class='count'>1</span></span>  are studying <br><span class = 'text__specialization'>International studies</span>
+
+							</div>
+						</div>
+					</div>
+					<div class = 'specialization'>
+						<div class = 'half-width'>
+							<i class="fa fa-file-text specicalization__icon" aria-hidden="true"></i>
+
+							<div class = 'specialization__text'>
+								<span class = 'text__number'><span class='count'>1</span></span>  are studying <br><span class = 'text__specialization'>law</span>
+
+							</div>
+						</div>
+					</div>
 			</div>
 		</div>
 	</div>
