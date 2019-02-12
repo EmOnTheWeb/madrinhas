@@ -596,11 +596,11 @@ a.homepage__partner-link:hover {
 	display:none; 
 }
 .page-template-page-mentee-map h2 {
-	font-size:30px!important;
+	font-size:22px!important;
 	width: 95%;
     margin: 60px auto 30px;
     font-weight:500!important;
-    text-transform:uppercase!important;
+   /* text-transform:uppercase!important;*/
 }
 .page-template-page-mentee-map h3 {
 	padding-left: 20px;
