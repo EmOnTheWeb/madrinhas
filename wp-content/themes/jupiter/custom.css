@@ -1790,6 +1790,7 @@ display:none!important;
     z-index: 3;
     border: none;
     box-sizing:border-box; 
+    cursor:pointer;
 
 }
 

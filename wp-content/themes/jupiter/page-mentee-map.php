@@ -14,7 +14,7 @@ echo '</section>';
 
 echo '<section style="background-color:white; padding:40px 80px;"><a class="slick-style-btn">View mentees by subject</a><a class="slick-style-btn">View mentees by country</a></section>'; 
 
-mk_build_main_wrapper( mk_get_view('singular', 'wp-mentee-map', true) );
+mk_build_main_wrapper( mk_get_view('singular', 'wp-mentee-study-overview', true) );
 
 mk_build_main_wrapper( mk_get_view('singular', 'wp-mentee-map', true) );
 
