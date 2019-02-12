@@ -1820,47 +1820,114 @@ section.mentee-study {
 	top: 50%;
 	width:150px;
 }
+.mentee-study .desktop div {
+
+	position:absolute;
+	 
+	border:none;
+	left: 50%;
+	top: 50%;
+	font-size:22px;
+
+}
+.mentee-study span.num {
+	font-weight:bold;
+	font-size:24px;
+	display:inline-block;
+}
 hr.one {
     
     transform:translate(-223px,-91px) rotate(27deg);    
 }
+div.one {
+	transform:translate(-293px,-150px);  
+}
 hr.two {
 	
 transform:translate(-175px,-150px) rotate(52deg);}
+div.two {
+	transform:translate(-225px,-235px); 
+}
 hr.three {
     
     transform: translate(-7px,-166px) rotate(115deg); 
+}
+div.three {
+	transform:translate(-237px,-322px); 
 }
 hr.four {
 	
     transform:translate(47px,-119px) rotate(138deg); 
 }
+div.four {
+	transform:translate(127px,-189px);
+}
 hr.five {
-
-	transform:translate(-106px,-178px)rotate(75deg); 
+	width:200px; 
+	transform:translate(-141px,-204px)rotate(75deg); 
+}
+div.five { 
+	transform:translate(64px,-258px); 
 }
 hr.six {
-	
-    transform: translate(69px,55px) rotate(211deg);
+	width:125px; 
+    transform: translate(73px,49px) rotate(211deg); 
+}
+div.six {
+	transform:translate(149px,100px); 
 }
 hr.seven {
 	transform: translate(85px,-26px);
 }
+div.seven {
+	transform: translate(125px,-46px); 
+}
 hr.eight {
 	transform:translate(30px, 100px) rotate(226deg);
 }
+div.eight {
+	transform:translate(110px, 170px);
+}
 hr.nine {
-	transform:translate(-41px, 131px)rotate(255deg);
+	transform:translate(-57px, 154px)rotate(255deg);
+	width:200px; 
+}
+div.nine {
+	transform:translate(-31px, 268px); 
 }
 hr.ten {
 	transform:translate(-132px, 131px)rotate(291deg); 
 }
+div.ten {
+	transform:translate(-229px, 216px); 
+}
 hr.eleven {
-	transform:translate(-190px, 97px)rotate(311deg); 
+	transform:translate(-200px, 87px)rotate(321deg); 
+}
+div.eleven {
+	transform:translate(-330px, 150px); 
 }
 hr.twelve {
-	transform:translate(-224px, 48px)rotate(332deg);
+	transform:translate(-227px, 30px)rotate(338deg);  
+} 
+div.twelve {
+	transform:translate(-364px, -42px); 
 }
 hr.thirteen {
 	transform:translate(-243px,-20px); 
 }
+div.thirteen {
+	transform:translate(-293px,50px); 
+}
+.mentee-study .mobile {
+	display:none; 
+}
+@media(max-width:767px) {
+	.mentee-study .desktop {
+		display:none; 
+	}
+	.mentee-study .mobile {
+		display:block; 
+	}
+}
+
