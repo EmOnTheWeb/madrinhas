@@ -1798,3 +1798,69 @@ display:none!important;
 	margin-right:20px;
 }
 
+section.mentee-study {
+	position:relative;
+	height:100vh; 
+	min-height:500px;
+	padding:60px;
+}
+.mentee-study__img {
+	position:absolute; 
+	left:50%; 
+	top:50%;
+	transform:translate(-100px,-100px);
+	width:200px;
+}
+.mentee-study hr {
+	position:absolute;
+	height:4px; 
+	background-color:rgb(171, 221, 164);
+	border:none;
+	left: 50%;
+	top: 50%;
+	width:150px;
+}
+hr.one {
+    
+    transform:translate(-223px,-91px) rotate(27deg);    
+}
+hr.two {
+	
+transform:translate(-175px,-150px) rotate(52deg);}
+hr.three {
+    
+    transform: translate(-7px,-166px) rotate(115deg); 
+}
+hr.four {
+	
+    transform:translate(47px,-119px) rotate(138deg); 
+}
+hr.five {
+
+	transform:translate(-106px,-178px)rotate(75deg); 
+}
+hr.six {
+	
+    transform: translate(69px,55px) rotate(211deg);
+}
+hr.seven {
+	transform: translate(85px,-26px);
+}
+hr.eight {
+	transform:translate(30px, 100px) rotate(226deg);
+}
+hr.nine {
+	transform:translate(-41px, 131px)rotate(255deg);
+}
+hr.ten {
+	transform:translate(-132px, 131px)rotate(291deg); 
+}
+hr.eleven {
+	transform:translate(-190px, 97px)rotate(311deg); 
+}
+hr.twelve {
+	transform:translate(-224px, 48px)rotate(332deg);
+}
+hr.thirteen {
+	transform:translate(-243px,-20px); 
+}
